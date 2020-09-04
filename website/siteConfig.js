@@ -24,13 +24,13 @@ const siteConfig = {
   title: 'Conecta Ensina', // Title for your website.
   tagline: 'Wiki do Projeto Conecta Ensina',
   url: 'https://fga-eps-mds.github.io', // Your website URL
-  baseUrl: '/2020.1-Conecta-Ensina/', // Base URL for your project */
+  baseUrl: '/2020.1-Conecta-Ensina-Wiki/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: '2020.1-Conecta-Ensina',
+  projectName: '2020.1-Conecta-Ensina-Wiki',
   organizationName: 'fga-eps-mds',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
