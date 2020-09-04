@@ -181,3 +181,114 @@ O _software_ será utilizado de dispositivos móveis que possuam o sistema opera
 | Diversidade nas disciplinas |Alto| Oferecimento de professores em maior áreas de conhecimento| Suporte ao sistema para cadastramento de professores de áreas de atuação do conhecimento diversas| sistema em que o administrador poderá adicionar uma disciplina que não estava cadastrada antes  |
 | Localização das aulas procuradas |Alto| Ampla localidade tendo professores cadastrados em lugares diversos| Sistema em que irá localizar professores em uma devida área para o cliente  | Usar da localização do usuário para encontrar os professores próximos |
 
+
+## 4. Visão geral do produto
+
+  
+
+### 4.1 Perspectiva do produto
+
+  
+O aplicativo Conecta Ensina oferece uma forma de contratação aulas particulares de maneira prática. Os usuários do aplicativo serão divididos entre: alunos, que irão cadastrar suas informações e poderão contratar as aulas através das disciplinas, e professores, que também farão um cadastro informando as disciplinas que lecionam, horários e datas disponíveis. As aulas serão contratadas pelos alunos e aceita pelos professores, sendo, assim que aceita abrirá um chat para comunicação entre os dois.
+
+### 4.2 Resumo das capacidades
+
+  
+| Benefícios para cliente | Recursos de suporte |
+|-------------------------|--------------------|
+| Interação direta entre professor e aluno | Mensagem privada entre aluno e professor após uma aula ter sido contratada. |
+| Localidade e disponibilidade de aulas | Filtros que permitirão ao usuário escolher sua aula com base no seu horário,sendo também, os professores sendo filtrados pela localidade próxima do usuário.
+| Praticidade na contratação de aulas | A contratação é feita toda pelo aplicativo que poderá ser baixado na _Play Store_. |
+| Gestão dos dias de aulas contratadas | Calendário interativo mostrando os dias e horários das aulas contratadas. |
+|  | Calendário interativo mostrando os dias e horários das aulas contratadas.|
+
+## 5. Recursos do produto
+ 
+ 
+### 5.1 Cadastro de usuários
+ 
+ 
+Página designada para cadastro de novos usuários, distinguindo  entre professores e alunos. Cada tipo de perfil cadastrado exige informações diferentes para concluir o cadastro.  
+ 
+ 
+### 5.2 Exibir perfil de usuário
+ 
+ 
+Recurso destinado à mostrar informações ligadas ao usuário, diferenciando entre os tipos de perfil e as características de cada usuário.
+ 
+ 
+### 5.3 Exibir perfis de professores
+ 
+ 
+Este recurso mostra os perfis de usuários do tipo professor, exibindo ao mesmo informações necessárias do professor para solicitar um serviço, assim como outras informações relevantes como avaliações de outros alunos daquele professor.
+ 
+ 
+### 5.4 Exibir perfil de aluno
+ 
+ 
+Este recurso é um recurso exclusivo dos usuários do tipo professor que foram solicitados para prestar um serviço. Mostra as informações relevantes do aluno e o tipo de serviço solicitado.
+ 
+ 
+### 5.5 Sala de bate-papo
+ 
+ 
+Ferramenta que estabelece uma comunicação direta antes da aula entre aluno e professor, sendo assim possível combinar  especificações antes do encontro. Tal recurso só será liberado após a confirmação da aula.
+ 
+ 
+### 5.6 Avaliação do aplicativo
+ 
+ 
+Este recurso permite que o usuário avalie o aplicativo e suas funcionalidades. Permite também que o usuário reporte erros e bugs encontrados, além de sugerir melhorias.
+ 
+ 
+### 5.7 FAQ
+ 
+Ferramenta responsável pelo contato inicial do usuário e as instruções básicas do produto, sendo implementada pelo uso de respostas de perguntas comumente feitas sobre a funcionalidade do programa.
+ 
+ 
+### 5.8 Formas de pagamentos
+ 
+Permite que o usuário aluno escolha o melhor método de pagamento ao solicitar um professor.
+ 
+
+
+
+## 6. Restrições
+
+### 6.1 Restrições de design
+
+Devido ao uso mobile, o software precisa se adaptar ao tamanho da tela do dispositivo do usuário, de forma a não utilizar muitos recursos do sistema, como bateria e memória.
+
+### 6.2 Restrições externas
+
+A comunicação entre os usuários é um fator determinante para o bom funcionamento do aplicativo. Tal fator acaba sendo afetado por fatores externos: qualidade do sinal, abordagem dos usuários e integridade da bateria. 
+
+### 6.3 Restrições de implementação
+
+O sistema será desenvolvido na linguagem _JavaScript_, utilizando um kit de desenvolvimento do React e do NodeJS. Além disso, o modelo arquitetural será o _MVC (Model - View - Controller)_. Outro fator delimitante é a, baixa perícia técnica da equipe de desenvolvedores.
+
+## 7. Faixas de qualidade
+
+### 7.1 Requisitos do Sistema
+
+O _software_ deve ser acessado de forma eficiente e estável por qualquer dispositivo android de versão < versão > . ou superior. Sem prejudicar outros processos e funcionalidades do celular durante execução do Conecta Ensina.
+
+### 7.2 Requisitos de _design_
+
+O _software_ deverá comportar um layout intuitivo e responsivo de forma a tornar fluida a experiência do usuário sem muito complexidade em seu uso, sendo agradável e podendo ser utilizado por qualquer usuário. 
+ 
+### 7.3 Requisitos de confiabilidade
+
+As aulas e transações pela aplicação serão totalmente confiáveis, visto que o Conecta Ensina irá fazer transações entre o cliente e o professor para o gerenciamento e a contratação da aula, sendo assim dando a confiança para esse tipo de procedimento.
+
+### 7.4 Requisitos de desempenho
+
+O sistema deve obter a localização do usuário quando o mesmo escolher a disciplina e procurar um professor durante a área, podendo o seu tempo variar pela número de professores mais próximos, contudo fazendo de forma eficiente e sempre atualizando a localização do aluno e do professor contratado. 
+
+
+## 8. Referencial bibliográfico
+
+https://github.com/fga-eps-mds/2016.2-MissaoNascente/wiki/Documento-de-Visão
+https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.4/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html
+
+
