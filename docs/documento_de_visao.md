@@ -181,4 +181,3 @@ O _software_ será utilizado de dispositivos móveis que possuam o sistema opera
 | Diversidade nas disciplinas |Alto| Oferecimento de professores em maior áreas de conhecimento| Suporte ao sistema para cadastramento de professores de áreas de atuação do conhecimento diversas| sistema em que o administrador poderá adicionar uma disciplina que não estava cadastrada antes  |
 | Localização das aulas procuradas |Alto| Ampla localidade tendo professores cadastrados em lugares diversos| Sistema em que irá localizar professores em uma devida área para o cliente  | Usar da localização do usuário para encontrar os professores próximos |
 
- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
