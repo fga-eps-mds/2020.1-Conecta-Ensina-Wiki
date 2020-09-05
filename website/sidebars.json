@@ -5,5 +5,8 @@
         "planejamentoSprint1", "fechamentoSprint1",
          "planejamentoSprint2"
     ]
-  }
+  },
+  "Documentacao": [
+    "backlogDoProduto"
+  ]
 }
