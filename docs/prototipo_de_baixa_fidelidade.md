@@ -22,10 +22,10 @@ Este artefato possui como finalidade a documentação do protótipo de baixa fid
 
 Protótipo do fluxo do usuário cadastrado como aluno. 
 
-![Fluxo do aluno](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/14_prototipo_de_baixa_fidelidade/website/static/img/prototipo_de_baixa_fidelidade_aluno.svg)
+![Fluxo do aluno](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/prototipo_de_baixa_fidelidade_aluno.svg)
 
 ## Fluxo do Professor
 
 Protótipo do fluxo do usuário cadastrado como professor. 
 
-![Fluxo do professor](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/14_prototipo_de_baixa_fidelidade/website/static/img/prototipo_de_baixa_fidelidade_professor.svg)
+![Fluxo do professor](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/prototipo_de_baixa_fidelidade_professor.svg)
