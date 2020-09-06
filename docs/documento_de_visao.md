@@ -200,7 +200,6 @@ O aplicativo Conecta Ensina oferece uma forma de contratação aulas particulare
 | Localidade e disponibilidade de aulas | Filtros que permitirão ao usuário escolher sua aula com base no seu horário,sendo também, os professores sendo filtrados pela localidade próxima do usuário.
 | Praticidade na contratação de aulas | A contratação é feita toda pelo aplicativo que poderá ser baixado na _Play Store_. |
 | Gestão dos dias de aulas contratadas | Calendário interativo mostrando os dias e horários das aulas contratadas. |
-|  | Calendário interativo mostrando os dias e horários das aulas contratadas.|
 
 ## 5. Recursos do produto
  
@@ -250,8 +249,6 @@ Ferramenta responsável pelo contato inicial do usuário e as instruções bási
  
 Permite que o usuário aluno escolha o melhor método de pagamento ao solicitar um professor.
  
-
-
 
 ## 6. Restrições
 
