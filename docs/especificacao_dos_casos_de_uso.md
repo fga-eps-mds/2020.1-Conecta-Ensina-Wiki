@@ -21,7 +21,7 @@ Este artefato possui como finalidade a documentação das especificações de ca
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](./website/static/img/diagramaCasoDeUso.svg)
+![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
 
 
 ### UC01 Manter aluno
