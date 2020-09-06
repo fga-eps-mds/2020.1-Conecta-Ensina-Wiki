@@ -2,7 +2,8 @@
   "docs": {
     "Documentos do Projeto":[
       "documentoDeVisao",
-      "especificacaoCasosDeUso"
+      "especificacaoCasosDeUso",
+      "backlogDoProduto"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
