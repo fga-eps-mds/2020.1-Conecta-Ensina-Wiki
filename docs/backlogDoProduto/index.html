@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Backlog do produto · Conecta Ensina</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Histórico de Versão"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Backlog do produto · Conecta Ensina"/><meta property="og:type" content="website"/><meta property="og:url" content="https://fga-eps-mds.github.io/2020.1-Conecta-Ensina-Wiki/"/><meta property="og:description" content="## Histórico de Versão"/><meta property="og:image" content="https://fga-eps-mds.github.io/2020.1-Conecta-Ensina-Wiki/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://fga-eps-mds.github.io/2020.1-Conecta-Ensina-Wiki/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/2020.1-Conecta-Ensina-Wiki/img/conecta_logo.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/2020.1-Conecta-Ensina-Wiki/js/scrollSpy.js"></script><link rel="stylesheet" href="/2020.1-Conecta-Ensina-Wiki/css/main.css"/><script src="/2020.1-Conecta-Ensina-Wiki/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/2020.1-Conecta-Ensina-Wiki/"><img class="logo" src="/2020.1-Conecta-Ensina-Wiki/img/conecta_logo.ico" alt="Conecta Ensina"/><h2 class="headerTitleWithLogo">Conecta Ensina</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/2020.1-Conecta-Ensina-Wiki/docs/planejamentoSprint0" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Documentos do Projeto</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Documentos do Projeto</h3><ul class=""><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/documentoDeVisao">Documento de visão</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/especificacaoCasosDeUso">Especificação dos casos de uso</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/backlogDoProduto">Backlog do produto</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Documentos de Sprint</h3><ul class=""><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/planejamentoSprint0">Planejamento Sprint 0</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/fechamentoSprint0">Fechamento Sprint 0</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/planejamentoSprint1">Planejamento Sprint 1</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/fechamentoSprint1">Fechamento Sprint 1</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/planejamentoSprint2">Planejamento Sprint 2</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/fechamentoSprint2">Fechamento Sprint 2</a></li><li class="navListItem"><a class="navItem" href="/2020.1-Conecta-Ensina-Wiki/docs/planejamentoSprint3">Planejamento Sprint 3</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Backlog do produto</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="histórico-de-versão"></a><a href="#histórico-de-versão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Histórico de Versão</h2>
+<table>
+<thead>
+<tr><th>Data</th><th>Descrição</th><th>Autor</th></tr>
+</thead>
+<tbody>
+<tr><td>03/09/2020</td><td>Criação do Documento</td><td>João Pedro Mota</td></tr>
+<tr><td>04/09/2020</td><td>Adição e revisão das US’s</td><td>João Pedro Mota, Mateus, Julio</td></tr>
+<tr><td>06/09/2020</td><td>Adição da introdução</td><td>Mateus</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="introdução"></a><a href="#introdução" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
+<p>Este artefato possui como finalidade a documentação do backlog do produto, registrando a história de usuário no projeto Conecta-Ensina, desenvolvido nas disciplinas de Métodos de Desenvolvimento de Software e Engenharia de Produto de Software no primeiro semestre de 2020, que possui como cliente a empresa Conecta-Ensina, representado na equipe pelas figuras do Fábio e da Carol.</p>
+<h2><a class="anchor" aria-hidden="true" id="história-de-usuário"></a><a href="#história-de-usuário" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>História de Usuário</h2>
+<table>
+<thead>
+<tr><th>Identificador</th><th>História</th><th>Pontuação</th></tr>
+</thead>
+<tbody>
+<tr><td>US01</td><td>Eu, como aluno, desejo me cadastrar no aplicativo, colocando além de meus dados a série que estou cursando</td><td></td></tr>
+<tr><td>US02</td><td>Eu, como professor, desejo me cadastrar no aplicativo, colocando além dos meus dados pessoais, quais disciplinas dou aula</td><td></td></tr>
+<tr><td>US03</td><td>Eu, como aluno, desejo logar no aplicativo</td><td></td></tr>
+<tr><td>US04</td><td>Eu, como professor, desejo logar no aplicativo</td><td></td></tr>
+<tr><td>US05</td><td>Eu, como aluno, desejo escolher de qual disciplina quero filtrar a aula baseado na minha série</td><td></td></tr>
+<tr><td>US06</td><td>Eu, como aluno, desejo filtrar a aula que desejo por dia, horário, duração e colocar uma observação</td><td></td></tr>
+<tr><td>US07</td><td>Eu, como aluno, desejo visualizar todos os professores disponíveis por ordem de avaliação, e com todos os filtros que selecionei</td><td></td></tr>
+<tr><td>US08</td><td>Eu, como aluno, desejo selecionar um dos professores da lista para ver mais informações sobre o mesmo</td><td></td></tr>
+<tr><td>US09</td><td>Eu, como aluno, desejo enviar ao professor uma solicitação de reserva de aula</td><td></td></tr>
+<tr><td>US10</td><td>Eu, como professor, desejo poder ver as aulas pendentes que me foram feitos, assim como aceitar ou recusar</td><td></td></tr>
+<tr><td>US11</td><td>Eu, como professor, desejo poder ver as aulas que estão marcadas na minha agenda</td><td></td></tr>
+<tr><td>US12</td><td>Eu, como aluno, desejo receber notificações sobre a confirmação ou não das minhas reservas enviadas</td><td></td></tr>
+<tr><td>US13</td><td>Eu, como aluno, desejo poder ver minha agenda de aulas marcadas e reservadas</td><td></td></tr>
+<tr><td>US14</td><td>Eu, como professor, desejo poder ver minhas aulas já realizadas, assim como as avaliações feitas por mim nelas</td><td></td></tr>
+<tr><td>US15</td><td>Eu, como aluno, desejo poder conversar com  o professor com o qual tenho aula marcada</td><td></td></tr>
+<tr><td>US16</td><td>Eu, como professor, desejo poder conversar com o aluno de uma aula marcada</td><td></td></tr>
+<tr><td>US17</td><td>Eu, como professor, desejo poder visualizar as avaliações de demais professores em relação ao aluno</td><td></td></tr>
+<tr><td>US18</td><td>Eu, como professor, desejo poder acessar a rota para a casa do aluno antes da aula ser iniciada</td><td></td></tr>
+<tr><td>US19</td><td>Eu, como professor, desejo poder iniciar a aula quando na presença do aluno</td><td></td></tr>
+<tr><td>US20</td><td>Eu, como professor, desejo poder ver a duração restante da aula enquanto estou com o aluno</td><td></td></tr>
+<tr><td>US21</td><td>Eu, como aluno, desejo poder avaliar o professor após a finalização da aula</td><td></td></tr>
+<tr><td>US22</td><td>Eu, como professor, desejo poder avaliar o aluno após a finalização da aula</td><td></td></tr>
+<tr><td>US23</td><td>Eu, como aluno, desejo poder marcar uma aula urgente (em menos de 48h), sem me importar com qual professor</td><td></td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2020.1-Conecta-Ensina-Wiki/docs/especificacaoCasosDeUso"><span class="arrow-prev">← </span><span>Especificação dos casos de uso</span></a><a class="docs-next button" href="/2020.1-Conecta-Ensina-Wiki/docs/planejamentoSprint0"><span>Planejamento Sprint 0</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#histórico-de-versão">Histórico de Versão</a></li><li><a href="#introdução">Introdução</a></li><li><a href="#história-de-usuário">História de Usuário</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/2020.1-Conecta-Ensina-Wiki/" class="nav-home"><img src="/2020.1-Conecta-Ensina-Wiki/img/favicon.ico" alt="Conecta Ensina" width="66" height="58"/></a><div><h5>Docs</h5><a href="/2020.1-Conecta-Ensina-Wiki/docs/doc1.html">Getting Started (or other categories)</a><a href="/2020.1-Conecta-Ensina-Wiki/docs/doc2.html">Guides (or other categories)</a><a href="/2020.1-Conecta-Ensina-Wiki/docs/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/2020.1-Conecta-Ensina-Wiki/users">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/2020.1-Conecta-Ensina-Wiki/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/2020.1-Conecta-Ensina-Wiki/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Conecta Ensina</section></footer></div></body></html>
