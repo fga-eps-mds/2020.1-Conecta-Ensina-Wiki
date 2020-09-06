@@ -10,6 +10,11 @@ sidebar_label: Backlog do produto
 |----------------------|--------|------|
 | 03/09/2020 | Criação do Documento | João Pedro Mota |
 | 04/09/2020 | Adição e revisão das US’s | João Pedro Mota, Mateus, Julio |
+| 06/09/2020 | Adição da introdução | Mateus |
+
+## Introdução
+
+Este artefato possui como finalidade a documentação do backlog do produto, registrando a história de usuário no projeto Conecta-Ensina, desenvolvido nas disciplinas de Métodos de Desenvolvimento de Software e Engenharia de Produto de Software no primeiro semestre de 2020, que possui como cliente a empresa Conecta-Ensina, representado na equipe pelas figuras do Fábio e da Carol.
 
 ## História de Usuário
 
