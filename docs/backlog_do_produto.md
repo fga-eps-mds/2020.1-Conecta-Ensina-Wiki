@@ -6,11 +6,11 @@ sidebar_label: Backlog do produto
 
 ## Histórico de Versão
 
-| Data | Descrição | Autor |
-|----------------------|--------|------|
-| 03/09/2020 | Criação do Documento | João Pedro Mota |
-| 04/09/2020 | Adição e revisão das US’s | João Pedro Mota, Mateus, Julio |
-| 06/09/2020 | Adição da introdução | Mateus |
+| Data | Versão | Descrição | Autor |
+|--------|-----------|---------------|---------|
+| 03/09/2020 | 0.1 | Criação do Documento | João Pedro Mota |
+| 04/09/2020 | 0.2 | Adição e revisão das US’s | João Pedro Mota, Mateus, Julio |
+| 06/09/2020 | 0.3 | Adição da introdução | Mateus |
 
 ## Introdução
 
