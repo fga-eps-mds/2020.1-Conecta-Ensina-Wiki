@@ -2,8 +2,11 @@
   "docs": {
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
-        "planejamentoSprint1", "fechamentoSprint1",
-         "planejamentoSprint2"
+      "planejamentoSprint1", "fechamentoSprint1",
+      "planejamentoSprint2"
+    ],
+    "Documentação": [
+      "documentoDeVisao"
     ]
   }
 }
