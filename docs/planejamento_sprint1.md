@@ -14,7 +14,7 @@ Devops: Igor Veludo <br>
 ## 2. Sprint Backlog
 
 | Tarefa | Pontos |
-|---------|--------|
+|--------|-------|
 | Roadmap | 3 |
 | Definição das tecnologias | 3 |
 | Configuração da wiki | 1 |
