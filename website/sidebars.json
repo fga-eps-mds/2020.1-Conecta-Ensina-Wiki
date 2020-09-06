@@ -1,12 +1,15 @@
 {
   "docs": {
+    "Documentos do Projeto":[
+      "documentoDeVisao",
+      "especificacaoCasosDeUso",
+      "backlogDoProduto"
+    ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
-        "planejamentoSprint1", "fechamentoSprint1",
-         "planejamentoSprint2"
+      "planejamentoSprint1", "fechamentoSprint1",
+      "planejamentoSprint2", "fechamentoSprint2",
+      "planejamentoSprint3"
     ]
-  },
-  "Documentacao": [
-    "backlogDoProduto"
-  ]
+  }
 }

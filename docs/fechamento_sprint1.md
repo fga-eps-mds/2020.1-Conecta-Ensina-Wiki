@@ -17,6 +17,8 @@ sidebar_label: Fechamento Sprint 1
 
 ### 1.2 Burndown
 
+![Burndown Sprint 1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint1.png)
+
 ### 1.3 Velocity
 
 | Sprint | Pontos Concluídos |
@@ -26,7 +28,7 @@ sidebar_label: Fechamento Sprint 1
 
 Total de Pontos: 13 <br>
 Sprints: 2 <br>
-Velocity: 6,5 <br>
+Velocity: 6 <br>
 
 ### 1.4 Retrospectiva
 
@@ -63,10 +65,6 @@ Velocity: 6,5 <br>
 </td>
 </tr>
 </table>
-
-### 1.5 Quadro de Conhecimento
-
-![Quadro de Conhecimento](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina/wiki/image/quadro-de-conhecimento-sprint-1.png)
 
 ### 1.6 Análise do Scrum Master
 
