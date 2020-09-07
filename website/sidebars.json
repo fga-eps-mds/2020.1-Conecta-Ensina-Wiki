@@ -3,7 +3,8 @@
     "Documentos do Projeto":[
       "documentoDeVisao",
       "especificacaoCasosDeUso",
-      "backlogDoProduto"
+      "backlogDoProduto",
+      "prototipoDeBaixaFidelidade"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
