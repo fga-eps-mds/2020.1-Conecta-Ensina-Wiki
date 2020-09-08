@@ -1,6 +1,7 @@
 {
   "docs": {
     "Documentos do Projeto": [
+      "documentoArquitetura",
       "documentoDeVisao",
       "especificacaoCasosDeUso"
     ],
