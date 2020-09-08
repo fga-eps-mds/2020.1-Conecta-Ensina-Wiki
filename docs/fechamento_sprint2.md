@@ -11,7 +11,7 @@ sidebar_label: Fechamento Sprint 2
 | Histórias Planejadas | Status |
 |----------------------|--------|
 | Documento de visão | Concluído |
-| Backlog do Produto | Não Concluído |
+| Backlog do Produto | Concluído |
 | Protótipo de baixa fidelidade | Concluído |
 | Configuração do Docker| Concluído |
 | Especificação dos casos de uso | Concluído |
@@ -26,11 +26,11 @@ sidebar_label: Fechamento Sprint 2
 |--------|-------------------|
 | 0 | 8 |
 | 1 | 5 |
-| 2 | 12 |
+| 2 | 15 |
 
-Total de Pontos: 25 <br>
+Total de Pontos: 28 <br>
 Sprints: 3 <br>
-Velocity: 8 <br>
+Velocity: 9 <br>
 
 ### 1.4 Retrospectiva
 
