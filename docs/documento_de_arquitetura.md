@@ -9,6 +9,7 @@ sidebar_label: Documento de arquitetura
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
 | 07/09/2020 | 0.1 | Criação do documento | Paulo Lopes |
+| 08/09/2020 | 0.2 | Escopo | Denniel William |
 
 
 ## Introdução
