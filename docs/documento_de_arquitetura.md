@@ -20,6 +20,8 @@ Este documento fornece uma visão geral da arquitetura abrangente do Conecta-Ens
 
 ### Escopo
 
+Este documento de arquitetura de _software_ fornece uma visão geral da arquitetura do aplicativo Conecta Ensina.  
+
 ### Abreviações, acrônimos e definições
 
 ### Referências
