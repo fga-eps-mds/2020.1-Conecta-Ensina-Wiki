@@ -91,7 +91,7 @@ O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utiliza�
 
 ## Visualização dos casos de uso
 
-[Especificação dos casos de uso](especificacaoCasosDeUso)
+![Especificação dos casos de uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
 
 
 ## Qualidade
