@@ -8,8 +8,9 @@ sidebar_label: Documento de arquitetura
 
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
-| 07/09/2020 | 0.1 | Criação do documento | Paulo Lopes |
+| 07/09/2020 | 0.1 | Criação do documento | Paulo |
 | 08/09/2020 | 0.2 | Escopo | Denniel William |
+| 09/09/2020 | 0.3 | Preenchimento | Denniel e Paulo |
 
 
 ## Introdução
@@ -21,9 +22,17 @@ Este documento fornece uma visão geral da arquitetura abrangente do Conecta-Ens
 
 ### Escopo
 
-Este documento de arquitetura de _software_ fornece uma visão geral da arquitetura do aplicativo Conecta Ensina.  
+Este documento de arquitetura de _software_ fornece uma visão geral da arquitetura do aplicativo Conecta Ensina.
+
 
 ### Abreviações, acrônimos e definições
+
+| Acrônimo | Definição |
+|---|---|
+| API | Application programming interface |
+| iOS | Sistema operacional Apple |
+| MVC | Model-View-Controller |
+| UUID | Identificador único universal |
 
 ### Referências
 
@@ -35,33 +44,61 @@ Este documento de arquitetura de _software_ fornece uma visão geral da arquitet
 
 ### Implementação
 
+Para facilitar a integração do sistema em multiplataformas, foi utilizado a arquitetura de MVC, onde a model e controller estão separados no Back-End, possibilitando assim que se possa desenvolver quantos Fronts forem necessários integrados por um mesmo banco de dados.
+
 #### Back-End
+
+O Back-End é desenvolvido em NodeJS com o banco relacional PostgreSQL.
 
 ![Arquitetura do Back-End](link)
 
 #### Front-End
 
+Para o desenvolvimento do App Mobile, foi utilizado o React Native para a importação ao sistema iOS e Android, além da fácil integração com a API em NodeJS
+
 ![Arquitetura do Front-End](link)
 
 ### Integração
 
-![Integração da arquitetura](link da imagem braba)
+Para a integração dos Fronts com a API, será necessário a comunicação por Json utilizado pelo HTTP.
+
+![Integração da arquitetura](link da imagem completa)
 
 ### Deployment
 
-#### Back-End
-
-#### Front-End
+[Plano de Gerenciamento de Configuração de Software](gerenciamentoConfiguracaoSoftware)
 
 ### Banco de dados
 
+Para a persistência de dados, será utilizado o sistema gerenciador de banco de dados PostgreSQL.
+
+O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utilização de UUID para colunas ID do tipo primary key, além oferecer uma gama de tipos de dados, auxiliando no desenvolvimento de um bom projeto de banco de dados.
+![Modelagem do Banco de Dados](link)
 
 ## Metas e restrições arquiteturais
 
+### Metas
+
+* Acoplamento: Foi separado as views da API de forma a atender qualquer exigência do cliente a novas tecnologias integradas em um mesmo banco de dados. Dessa forma, podemos focar em fazer uma API concreta para utilização em diversas plataformas, assim como diversas aplicações que integradas.
+
+* Evolução: A necessidade do desenvolvimento de novas funcionalidades poderá ser feita de forma independente na API e na interface de usuário, inclusive, adotando outras tecnologias, desde que a integração entre as duas frentes seja mantida.
+
+### Restrições
+
+* Expertise - A equipe não possui muito experiência de desenvolvimento nas tecnologias escolhidas. Entretanto, sabendo de tal restrição, buscou-se elaborar um Plano de Gerenciamento de Riscos para que o projeto possa ser desenvolvido com êxito.
+
+* Tecnologia: Se tratando de tecnologias emergentes, há muitas mudanças de versões que devem ser levadas em consideração na hora de adotar qualquer biblioteca.
 
 ## Visualização dos casos de uso
 
-[Especificação dos casos de uso](colocar o link aqui!!)
+[Especificação dos casos de uso](especificacaoCasosDeUso)
 
 
 ## Qualidade
+
+Na API, os padrões adotados no projeto seguirão convenções do framework NodeJS, que são amplamente utilizados por projetos de diversos tamanhos.
+
+Na interface de usuário, a utilização do React, permitirá que o desenvolvimento seja realizado de forma eficiente e componentizado, com facilidade de integração com outras bibliotecas e serviços.
+
+Os desenvolvedores do projeto também farão uso das folhas de estilo das linguagens de programação adotadas e contarão com ferramentas de análise estática, para assegurar que o desenvolvimento está de acordo com os requisitos de boas práticas de desenvolvimento de software.
+
