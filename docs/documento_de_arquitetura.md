@@ -46,11 +46,15 @@ Este documento de arquitetura de _software_ fornece uma visão geral da arquitet
 
 Para facilitar a integração do sistema em multiplataformas, foi utilizado a arquitetura de MVC, onde a model e controller estão separados no Back-End, possibilitando assim que se possa desenvolver quantos Fronts forem necessários integrados por um mesmo banco de dados.
 
+#### Diagrama de Relações
+
+![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagrama_de_relacoes.svg)
+
 #### Back-End
 
 O Back-End é desenvolvido em NodeJS com o banco relacional PostgreSQL.
 
-![Arquitetura do Back-End](link)
+![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/back_end.svg)
 
 #### Front-End
 
