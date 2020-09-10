@@ -48,13 +48,13 @@ Para facilitar a integração do sistema em multiplataformas, foi utilizado a ar
 
 #### Diagrama de Relações
 
-![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagrama_de_relacoes.svg)
+![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/26_documento_de_arquitetura/website/static/img/diagrama_de_relacoes.png)
 
 #### Back-End
 
 O Back-End é desenvolvido em NodeJS com o banco relacional PostgreSQL.
 
-![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/back_end.svg)
+![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/26_documento_de_arquitetura/website/static/img/back_end.png)
 
 #### Front-End
 
