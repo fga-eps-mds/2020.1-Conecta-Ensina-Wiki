@@ -11,6 +11,8 @@ sidebar_label: Documento de arquitetura
 | 07/09/2020 | 0.1 | Criação do documento | Paulo |
 | 08/09/2020 | 0.2 | Escopo | Denniel William |
 | 09/09/2020 | 0.3 | Preenchimento | Denniel e Paulo |
+| 10/09/2020 | 0.4 | Finalização dos demais diagramas | Denniel |
+| 11/09/2020 | 0.5 | Arrumando links | Paulo |
 
 
 ## Introdução
@@ -46,27 +48,23 @@ Este documento de arquitetura de _software_ fornece uma visão geral da arquitet
 
 Para facilitar a integração do sistema em multiplataformas, foi utilizado a arquitetura de MVC, onde a model e controller estão separados no Back-End, possibilitando assim que se possa desenvolver quantos Fronts forem necessários integrados por um mesmo banco de dados.
 
-#### Diagrama de Relações
-
-![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/26_documento_de_arquitetura/website/static/img/diagrama_de_relacoes.png)
-
 #### Back-End
 
 O Back-End é desenvolvido em NodeJS com o banco relacional PostgreSQL.
 
-![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/26_documento_de_arquitetura/website/static/img/back_end.png)
+![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/back_end.png)
 
 #### Front-End
 
 Para o desenvolvimento do App Mobile, foi utilizado o React Native para a importação ao sistema iOS e Android, além da fácil integração com a API em NodeJS
 
-![Arquitetura do Front-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/26_documento_de_arquitetura/website/static/img/front_end.png)
+![Arquitetura do Front-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/front_end.png)
 
 ### Integração
 
 Para a integração dos Fronts com a API, será necessário a comunicação por Json utilizado pelo HTTP.
 
-![Integração da arquitetura](link da imagem completa)
+![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaRelacoes.svg)
 
 ### Deployment
 
@@ -77,6 +75,7 @@ Para a integração dos Fronts com a API, será necessário a comunicação por 
 Para a persistência de dados, será utilizado o sistema gerenciador de banco de dados PostgreSQL.
 
 O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utilização de UUID para colunas ID do tipo primary key, além oferecer uma gama de tipos de dados, auxiliando no desenvolvimento de um bom projeto de banco de dados.
+
 ![Modelagem do Banco de Dados](link)
 
 ## Metas e restrições arquiteturais
@@ -95,8 +94,9 @@ O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utiliza�
 
 ## Visualização dos casos de uso
 
-![Especificação dos casos de uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
+### [Especificação dos casos de uso](especificacaoCasosDeUso)
 
+![Especificação dos casos de uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
 
 ## Qualidade
 
