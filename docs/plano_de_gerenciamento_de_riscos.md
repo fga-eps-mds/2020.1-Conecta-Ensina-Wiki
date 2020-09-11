@@ -12,6 +12,7 @@ sidebar_label: Plano de gerenciamento de riscos
 | 09/09/2020 | 0.2 | Criação da introdução | João Vitor e Mateus |
 | 09/09/2020 | 0.3 | Criação do tópico papéis e responsabilidade | João Vitor e Mateus |
 | 10/09/2020 | 0.4 | Criação dos tópicos metodologia e análise quantitativa | João Vitor e Mateus |
+| 10/09/2020 | 0.5 | Criação do tópico categoria dos riscos | João Vitor e Mateus |
 
 ## 1. Introdução
 
@@ -58,3 +59,23 @@ Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e
 | Médio | 3 | 6 | 9 | 12 | 15 |
 | Alto | 4 | 8 | 12 | 16 | 20 |
 | Muito Alto | 5 | 10 | 15 | 20 | 25 |
+
+## 4. Categoria dos riscos
+
+Neste projeto, os riscos serão categorizados em **técnico**, **externo**, **organizacional** ou **gerenciamento de projetos**.
+
+### 4.1 Técnico
+
+Os riscos técnicos abordam os requisitos, tecnologia, complexidade, confiabilidade e qualidade.
+
+### 4.2 Externo
+
+Os riscos externos são relativos ao cliente, mercado ou ambiente.
+
+### 4.3 Organizacional
+
+Os riscos organizacionais abordam as dependências do projeto, recursos e priorização.
+
+### 4.4 Gerenciamento de projetos
+
+Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, controle e a comunicação.
