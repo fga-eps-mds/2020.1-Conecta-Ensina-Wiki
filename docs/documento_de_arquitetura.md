@@ -60,7 +60,7 @@ O Back-End é desenvolvido em NodeJS com o banco relacional PostgreSQL.
 
 Para o desenvolvimento do App Mobile, foi utilizado o React Native para a importação ao sistema iOS e Android, além da fácil integração com a API em NodeJS
 
-![Arquitetura do Front-End](link)
+![Arquitetura do Front-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/26_documento_de_arquitetura/website/static/img/front_end.png)
 
 ### Integração
 
