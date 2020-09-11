@@ -79,3 +79,36 @@ Os riscos organizacionais abordam as dependências do projeto, recursos e priori
 ### 4.4 Gerenciamento de projetos
 
 Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, controle e a comunicação.
+
+## 5. Registro dos riscos
+
+Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela descrição dos riscos, categoria, causas e consequências. Os riscos são indexados com um ID para a identificação.
+
+| ID | Risco | Categoria | Causa | Impacto |
+| :-: | :---: | :-------: | :---: | :-----: |
+
+## 6. Planejamento de Resposta dos Riscos
+
+A resposta aos riscos consiste em aumentar as oportunidades e reduzir as ameaças aos objetivos do projeto, permitindo assim a abordagem dos riscos por prioridades. Os tipos de abordagem que devem ser aplicadas a cada risco são **prevenir**, **transferir**, **mitigar** ou **aceitar**.
+
+### 6.1 Prevenir
+
+Na estratégia de prevenir o risco, a equipe deve agir para eliminar a ameaça ou proteger o projeto contra o impacto deste risco. Extensão do cronograma, alteração da estratégia ou redução do escopo são exemplos de ações com o objetivo de prevenir.
+
+### 6.2 Transferir
+
+A estratégia de transferência de riscos consiste em realocar o impacto e responsabilidade da ameaça para terceiros, transferindo o esforço gerencial para outra área, equipe ou software.
+
+### 6.3 Mitigar
+
+Na estratégia de mitigar o risco, a equipe age para reduzir a probabilidade ou impacto do risco. Diminuir a possibilidade da ocorrência do risco é melhor do que reparar o impacto produzido pelo mesmo. Quando reduzir a probabilidade do risco não é possível, deve-se abordar fatores determinantes para a gravidade do impacto.
+
+### 6.4 Aceitar 
+
+A aceitação é a resposta ao risco que a equipe do projeto estabelece não agir para diminuir a ocorrência. Essa postura referente a um risco é aplicada quando é inviável evitar, diminuir ou transferir o risco.
+
+### 6.5 Respostas aos riscos
+
+A respostas aos riscos é apresentada em tabela, integrando a análise quantitativa e a ação tomada pela equipe para lidar com os riscos.
+
+| ID | Probabilidade | Impacto | Prioridade | Ação|
