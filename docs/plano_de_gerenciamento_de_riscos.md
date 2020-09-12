@@ -16,31 +16,7 @@ sidebar_label: Plano de gerenciamento de riscos
 | 11/09/2020 | 0.6 | Criação do tópico documentação dos riscos | João Vitor e Mateus |
 | 11/09/2020 | 0.7 | Criação da tabela de nível de prioridade | João Vitor e Mateus |
 | 12/09/2020 | 0.8 | Criação da tabela de respostas aos riscos | João Vitor e Mateus |
-| 12/09/2020 | 0.9 | Criação do sumário | Mateus |
-
-## Sumário
-
-1. [Introdução](#1-introdução)
-2. [Processo de gerenciamento dos riscos](#2-processo-de-gerenciamento-dos-riscos)
-    - [2.1 Metodologia](#21-metodologia)
-    - [2.2 Papéis e responsabilidade](#22-papéis-e-responsabilidade)
-3. [Categoria dos riscos](#3-categoria-dos-riscos)
-    - [3.1 Técnico](#31-técnico)
-    - [3.2 Externo](#32-externo)
-    - [3.3 Organizacional](#33-organizacional)
-    - [3.4 Gerenciamento de projetos](#34-gerenciamento-de-projetos)
-4. [Documentação dos riscos](#4-documentação-dos-riscos)
-5. [Análise quantitativa](#5-análise-quantitativa)
-    - [5.1 Probabilidade](#51-probabilidade)
-    - [5.2 Impacto](#52-impacto)
-    - [5.3 Prioridade](#53-prioridade)
-        - [5.3.1 Nível de prioridade](#531-nível-de-prioridade)
-6. [Planejamento de resposta dos riscos](#6-planejamento-de-resposta-dos-riscos)
-    - [6.1 Prevenir](#61-prevenir)
-    - [6.2 Transferir](#62-transferir)
-    - [6.3 Mitigar](#63-mitigar)
-    - [6.4 Aceitar](#64-aceitar)
-    - [6.5 Respostas aos riscos](#65-respostas-aos-riscos)
+| 12/09/2020 | 0.9 | Revisão | João Vitor e Mateus |
 
 ## 1. Introdução
 
@@ -163,17 +139,22 @@ A aceitação é a resposta ao risco que a equipe do projeto estabelece não agi
 
 As respostas aos riscos são apresentadas em tabela, integrando a análise quantitativa e a ação tomada pela equipe para lidar com os riscos.
 
-| ID | Probabilidade | Impacto | Prioridade | Ação de Resposta |
+| ID | Probabilidade | Impacto | Prioridade | Resposta |
 | :-: | :---: | :---: | :---: | :-----: |
-| R01 | 30 | 5 | 10 | Focar nos conhecimentos necessários para o projeto e trazer capacitações de qualidade para a equipe |
-| R02 | 20 | 4 | 8 | Buscar um bom material teórico sobre o assunto e testar bem a arquitetura escolhida |
-| R03 | 15 | 5 | 5 | Realizar Coding Dojos e estudar bem o domínio do tema |
-| R04 | 15 | 4 | 4 | Testar bem o produto desenvolvido antes da entrega |
-| R05 | 10 | 5 | 5 | Realizar um bom acompanhamento com o cliente durante o desenvolvimento |
-| R06 | 80 | 5 | 25 | Ajustar rapidamente o escopo do projeto com os novos requisitos e criar novas issues |
-| R07 | 10 | 5 | 5 | Criar uma persona para seguir de cliente fictício ou escolher um novo tema que possa reaproveitar o que já foi desenvolvido |
-| R08 | 40 | 4 | 12 | Realizar mais reuniões de atualização e acompanhar melhor os membros desmotivados |
-| R09 | 40 | 5 | 15 | Procurar as melhores ferramentas de desenvolvimento e achar alternativas para contornar imprevistos |
-| R10 | 20 | 3 | 6 | Planejar corretamente as sprints e contabilizar o trabalho executado por cada membro |
-| R11 | 20 | 4 | 10 | Discutir com o professor maneiras de ajustar o escopo do projeto para que a carga de trabalho de cada membro continue alinhada com os requisitos da disciplina |
-| R12 | 20 | 3 | 6 | Promover momentos de descontração e manter um ambiente de respeito entre os membros |
+| R01 | 30 | 5 | 10 | Mitigar |
+| R02 | 20 | 4 | 8 | Mitigar |
+| R03 | 15 | 5 | 5 | Prevenir |
+| R04 | 15 | 4 | 4 | Mitigar |
+| R05 | 10 | 5 | 5 | Prevenir |
+| R06 | 80 | 5 | 25 | Transferir |
+| R07 | 10 | 5 | 5 | Aceitar |
+| R08 | 40 | 4 | 12 | Prevenir |
+| R09 | 40 | 5 | 15 | Aceitar |
+| R10 | 20 | 3 | 6 | Mitigar |
+| R11 | 20 | 4 | 10 | Transferir |
+| R12 | 20 | 3 | 6 | Prevenir |
+
+## 7. Bibliografia
+[Plano de gerenciamento de riscos da equipe Aix](https://fga-eps-mds.github.io/2019.1-Aix/gerencia/2019/04/06/plano-de-gerenciamento-de-riscos/)
+[Plano de gerenciamento de riscos da equipe Escola X](https://github.com/fga-eps-mds/2017.1-Escola-X/wiki/Plano-de-Gerenciamento-de-Riscos)
+[Plano de gerenciamento de riscos da equipe Quero Cultura](https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-de-Riscos)
