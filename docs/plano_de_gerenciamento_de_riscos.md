@@ -16,6 +16,31 @@ sidebar_label: Plano de gerenciamento de riscos
 | 11/09/2020 | 0.6 | Criação do tópico documentação dos riscos | João Vitor e Mateus |
 | 11/09/2020 | 0.7 | Criação da tabela de nível de prioridade | João Vitor e Mateus |
 | 12/09/2020 | 0.8 | Criação da tabela de respostas aos riscos | João Vitor e Mateus |
+| 12/09/2020 | 0.9 | Criação do sumário | Mateus |
+
+## Sumário
+
+1. [Introdução](#1-introdução)
+2. [Processo de gerenciamento dos riscos](#2-processo-de-gerenciamento-dos-riscos)
+    - [2.1 Metodologia](#21-metodologia)
+    - [2.2 Papéis e responsabilidade](#22-papéis-e-responsabilidade)
+3. [Categoria dos riscos](#3-categoria-dos-riscos)
+    - [3.1 Técnico](#31-técnico)
+    - [3.2 Externo](#32-externo)
+    - [3.3 Organizacional](#33-organizacional)
+    - [3.4 Gerenciamento de projetos](#34-gerenciamento-de-projetos)
+4. [Documentação dos riscos](#4-documentação-dos-riscos)
+5. [Análise quantitativa](#5-análise-quantitativa)
+    - [5.1 Probabilidade](#51-probabilidade)
+    - [5.2 Impacto](#52-impacto)
+    - [5.3 Prioridade](#53-prioridade)
+        - [5.3.1 Nível de prioridade](#531-nível-de-prioridade)
+6. [Planejamento de resposta dos riscos](#6-planejamento-de-resposta-dos-riscos)
+    - [6.1 Prevenir](#61-prevenir)
+    - [6.2 Transferir](#62-transferir)
+    - [6.3 Mitigar](#63-mitigar)
+    - [6.4 Aceitar](#64-aceitar)
+    - [6.5 Respostas aos riscos](#65-respostas-aos-riscos)
 
 ## 1. Introdução
 
@@ -27,7 +52,7 @@ Este documento tem como objetivo identificar e categorizar possíveis riscos ao 
 
 No projeto será realizada uma análise quantitativa, que tem por objetivo a priorização e categorizados riscos de acordo com a probabilidade (chances de ocorrência de um risco) e o impacto (o quanto o risco interfere no desenvolvimento do projeto).
 
-### 2.2  Papéis e responsabilidade
+### 2.2 Papéis e responsabilidade
 
 Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e monitoramento dos riscos que estão presentes em ciclo de vida do desenvolvimento do projeto. Os membros e os riscos por quais ficaram responsáveis serão definidos em reunião virtual, com base no perfil de cada membro da gerência.
 
@@ -98,11 +123,11 @@ A prioridade é o que determina a urgência que medidas devem ser tomadas para r
 
 | I/P | Muito baixa | Baixa | Média | Alta | Muito alta |
 | :-: | :---------: | :---: | :---: | :--: | :--------: |
-| Muito baixo | 1 | 2 | 3 | 4 | 5 |
-| Baixo | 2 | 4 | 6 | 8 | 10 |
-| Médio | 3 | 6 | 9 | 12 | 15 |
-| Alto | 4 | 8 | 12 | 16 | 20 |
-| Muito Alto | 5 | 10 | 15 | 20 | 25 |
+| **Muito baixo** | 1 | 2 | 3 | 4 | 5 |
+| **Baixo** | 2 | 4 | 6 | 8 | 10 |
+| **Médio** | 3 | 6 | 9 | 12 | 15 |
+| **Alto** | 4 | 8 | 12 | 16 | 20 |
+| **Muito alto** | 5 | 10 | 15 | 20 | 25 |
 
 #### 5.3.1 Nível de Prioridade
 
@@ -114,7 +139,7 @@ A prioridade é o que determina a urgência que medidas devem ser tomadas para r
 | Alto | 16 a 20 |
 | Muito alto | 21 a 25 |
 
-## 6. Planejamento de Resposta dos Riscos
+## 6. Planejamento de resposta dos riscos
 
 A resposta aos riscos consiste em aumentar as oportunidades e reduzir as ameaças aos objetivos do projeto, permitindo assim a abordagem dos riscos por prioridades. Os tipos de abordagem que devem ser aplicadas a cada risco são **prevenir**, **transferir**, **mitigar** ou **aceitar**.
 
