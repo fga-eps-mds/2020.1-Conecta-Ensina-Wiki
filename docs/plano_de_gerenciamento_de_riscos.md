@@ -13,6 +13,7 @@ sidebar_label: Plano de gerenciamento de riscos
 | 09/09/2020 | 0.3 | Criação do tópico papéis e responsabilidade | João Vitor e Mateus |
 | 10/09/2020 | 0.4 | Criação dos tópicos metodologia e análise quantitativa | João Vitor e Mateus |
 | 10/09/2020 | 0.5 | Criação do tópico categoria dos riscos | João Vitor e Mateus |
+| 11/09/2020 | 0.6 | Criação do tópico documentação dos riscos | João Vitor e Mateus |
 
 ## 1. Introdução
 
@@ -28,9 +29,48 @@ No projeto será realizada uma análise quantitativa, que tem por objetivo a pri
 
 Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e monitoramento dos riscos que estão presentes em ciclo de vida do desenvolvimento do projeto. Os membros e os riscos por quais ficaram responsáveis serão definidos em reunião virtual, com base no perfil de cada membro da gerência.
 
- ## 3 Análise quantitativa
+## 3. Categoria dos riscos
 
-### 3.1 Probabilidade
+Neste projeto, os riscos serão categorizados em **técnico**, **externo**, **organizacional** ou **gerenciamento de projetos**.
+
+### 3.1 Técnico
+
+Os riscos técnicos abordam os requisitos, tecnologia, complexidade, confiabilidade e qualidade.
+
+### 3.2 Externo
+
+Os riscos externos são relativos ao cliente, mercado ou ambiente.
+
+### 3.3 Organizacional
+
+Os riscos organizacionais abordam as dependências do projeto, recursos e priorização.
+
+### 3.4 Gerenciamento de projetos
+
+Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, controle e a comunicação.
+
+## 4. Documentação dos riscos
+
+Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela descrição dos riscos, categoria, causas e consequências. Os riscos são indexados com um ID para a identificação.
+
+| ID | Risco | Categoria | Causa | Impacto |
+| :-: | :---: | :-------: | :---: | :-----: |
+| R01 | Gastar a maior parte do tempo capacitando a equipe em novas tecnologias | Técnico | Falta de familiaridade com as tecnologias do projeto | Mau gerenciamento do projeto e entrega não satisfatória |
+| R02 | Arquitetura do software mal desenvolvida | Técnico | Falta de conhecimento da equipe sobre o assunto | Baixo desempenho do software |
+| R03 | Dificuldade no desenvolvimento do software | Técnico | Tema complexo ou falta de experiência dos membros da equipe | Atraso no cronograma |
+| R04 | O software não funciona corretamente | Técnico | Presença de falhas no sistema | Insatisfação do cliente com o produto |
+| R05 | Projeto não atende a expectativa do cliente | Técnico | Falta de comunicação com o cliente | Software entregue não atende os requisitos do cliente |
+| R06 | Mudança de escopo | Externo | Nova demanda do cliente ou definição da disciplina | Replanejamento do projeto |
+| R07 | Falta de cliente real | Externo | Cliente desiste de prosseguir com o projeto | Projeto encerrado |
+| R08 | Baixa produtividade da equipe | Organizacional | Desmotivação dos membros da equipe | Atraso no cronograma |
+| R09 | Ambiente e recursos de trabalho inadequados | Organizacional | Ambiente de trabalho barulhento e/ou desconfortável, conexão de internet instável ou ferramenta de desenvolvimento inadequada | Dificuldade na comunicação, desmotivação dos membros, baixa produtividade e atraso no desenvolvimento do projeto |
+| R10 | Membro ocioso | Gerenciamento | Mal gerenciamento de recursos humanos | Sobrecarga de tarefas para alguns membros |
+| R11 | Um o mais integrantes sairem ou ficarem ausentes | Gerenciamento | Problemas pessoais ou desistência da matéria | Entrega do produto não terá uma qualidade esperada e sobrecarga de trabalho para o restante de membros da equipe |
+| R12 | Problema de comunicação na equipe | Gerenciamento | Falta de afinidade entre os membros ou sentimento de não pertencente ao grupo | Baixa integração e alinhamento da equipe |
+
+## 5 Análise quantitativa
+
+### 5.1 Probabilidade
 
 | Probabilidade | Intervalo | Peso |
 | :-----------: | :-------: | :--: |
@@ -40,7 +80,7 @@ Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e
 | Alta | 51 a 65 | 4 |
 | Muito alta | 66 a 100 | 5 |
 
-### 3.2 Impacto
+### 5.2 Impacto
 
 | Impacto | Descrição | Peso |
 | :-----: | :-------: | :--: |
@@ -50,7 +90,7 @@ Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e
 | Alto | Grande impacto | 4 |
 | Muito alto | Impacto impede o desenvolvimento do projeto  | 5 |
 
-### 3.3 Prioridade 
+### 5.3 Prioridade 
 
 | I/P | Muito baixa | Baixa | Média | Alta | Muito alta |
 | :-: | :---------: | :---: | :---: | :--: | :--------: |
@@ -59,33 +99,6 @@ Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e
 | Médio | 3 | 6 | 9 | 12 | 15 |
 | Alto | 4 | 8 | 12 | 16 | 20 |
 | Muito Alto | 5 | 10 | 15 | 20 | 25 |
-
-## 4. Categoria dos riscos
-
-Neste projeto, os riscos serão categorizados em **técnico**, **externo**, **organizacional** ou **gerenciamento de projetos**.
-
-### 4.1 Técnico
-
-Os riscos técnicos abordam os requisitos, tecnologia, complexidade, confiabilidade e qualidade.
-
-### 4.2 Externo
-
-Os riscos externos são relativos ao cliente, mercado ou ambiente.
-
-### 4.3 Organizacional
-
-Os riscos organizacionais abordam as dependências do projeto, recursos e priorização.
-
-### 4.4 Gerenciamento de projetos
-
-Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, controle e a comunicação.
-
-## 5. Registro dos riscos
-
-Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela descrição dos riscos, categoria, causas e consequências. Os riscos são indexados com um ID para a identificação.
-
-| ID | Risco | Categoria | Causa | Impacto |
-| :-: | :---: | :-------: | :---: | :-----: |
 
 ## 6. Planejamento de Resposta dos Riscos
 
@@ -112,3 +125,4 @@ A aceitação é a resposta ao risco que a equipe do projeto estabelece não agi
 A respostas aos riscos é apresentada em tabela, integrando a análise quantitativa e a ação tomada pela equipe para lidar com os riscos.
 
 | ID | Probabilidade | Impacto | Prioridade | Ação|
+| :-: | :---: | :---: | :---: | :-----: |
