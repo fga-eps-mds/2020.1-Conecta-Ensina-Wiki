@@ -4,7 +4,8 @@
       "documentoDeVisao",
       "especificacaoCasosDeUso",
       "backlogDoProduto",
-      "prototipoDeBaixaFidelidade"
+      "prototipoDeBaixaFidelidade",
+      "modelagemDoBancoDeDados"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",

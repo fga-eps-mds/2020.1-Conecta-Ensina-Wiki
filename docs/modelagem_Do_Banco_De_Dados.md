@@ -9,6 +9,7 @@ sidebar_label: modelagemDoBancoDeDados
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
 | 10/09/2020 | 0.1 | Criação do documento | Júlio Schneider, Edvan Gomes, Igor Veludo |
+| 11/09/2020 | 0.2 | Atualização do Banco de Dados | Júlio Schneider, Edvan Gomes, Igor Veludo |
 
 ## Introdução
 
@@ -16,6 +17,11 @@ Este artefato possui como finalidade a documentação da modelagem do banco de d
 
 ## Modelagem do Banco de dados
 
-Versão do modelo relacional do banco de dados. 
+Versão 0.1 do modelo relacional do banco de dados. 
 
-![Modelagem do Banco de Dados](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados.svg)
+![Modelagem do Banco de Dados v0.1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados_v01.svg)
+
+Versão 0.2 do modelo relacional do banco de dados. 
+
+![Modelagem do Banco de Dados v0.2](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados_v02.svg)
+
