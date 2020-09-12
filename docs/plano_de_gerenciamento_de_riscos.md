@@ -15,6 +15,7 @@ sidebar_label: Plano de gerenciamento de riscos
 | 10/09/2020 | 0.5 | Criação do tópico categoria dos riscos | João Vitor e Mateus |
 | 11/09/2020 | 0.6 | Criação do tópico documentação dos riscos | João Vitor e Mateus |
 | 11/09/2020 | 0.7 | Criação da tabela de nível de prioridade | João Vitor e Mateus |
+| 12/09/2020 | 0.8 | Criação da tabela de respostas aos riscos | João Vitor e Mateus |
 
 ## 1. Introdução
 
@@ -54,9 +55,9 @@ Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, contro
 
 Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela descrição dos riscos, categoria, causas e consequências. Os riscos são indexados com um ID para a identificação.
 
-| ID | Risco | Categoria | Causa | Impacto |
+| ID | Risco | Categoria | Causa | Consequência |
 | :-: | :---: | :-------: | :---: | :-----: |
-| R01 | Gastar a maior parte do tempo capacitando a equipe em novas tecnologias | Técnico | Falta de familiaridade com as tecnologias do projeto | Mau gerenciamento do projeto e entrega não satisfatória |
+| R01 | Gastar a maior parte do tempo capacitando a equipe em novas tecnologias | Técnico | Falta de familiaridade com as tecnologias do projeto | Atraso no cronograma e entrega não satisfatória |
 | R02 | Arquitetura do software mal desenvolvida | Técnico | Falta de conhecimento da equipe sobre o assunto | Baixo desempenho do software |
 | R03 | Dificuldade no desenvolvimento do software | Técnico | Tema complexo ou falta de experiência dos membros da equipe | Atraso no cronograma |
 | R04 | O software não funciona corretamente | Técnico | Presença de falhas no sistema | Insatisfação do cliente com o produto |
@@ -66,7 +67,7 @@ Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela 
 | R08 | Baixa produtividade da equipe | Organizacional | Desmotivação dos membros da equipe | Atraso no cronograma |
 | R09 | Ambiente e recursos de trabalho inadequados | Organizacional | Ambiente de trabalho barulhento e/ou desconfortável, conexão de internet instável ou ferramenta de desenvolvimento inadequada | Dificuldade na comunicação, desmotivação dos membros, baixa produtividade e atraso no desenvolvimento do projeto |
 | R10 | Membro ocioso | Gerenciamento | Mal gerenciamento de recursos humanos | Sobrecarga de tarefas para alguns membros |
-| R11 | Um o mais integrantes sairem ou ficarem ausentes | Gerenciamento | Problemas pessoais ou desistência da matéria | Entrega do produto não terá uma qualidade esperada e sobrecarga de trabalho para o restante de membros da equipe |
+| R11 | Um ou mais integrantes sairem ou ficarem ausentes | Gerenciamento | Problemas pessoais ou desistência da matéria | Entrega do produto não terá uma qualidade esperada e sobrecarga de trabalho para o restante de membros da equipe |
 | R12 | Problema de comunicação na equipe | Gerenciamento | Falta de afinidade entre os membros ou sentimento de não pertencente ao grupo | Baixa integração e alinhamento da equipe |
 
 ## 5. Análise quantitativa
@@ -135,7 +136,19 @@ A aceitação é a resposta ao risco que a equipe do projeto estabelece não agi
 
 ### 6.5 Respostas aos riscos
 
-A respostas aos riscos é apresentada em tabela, integrando a análise quantitativa e a ação tomada pela equipe para lidar com os riscos.
+As respostas aos riscos são apresentadas em tabela, integrando a análise quantitativa e a ação tomada pela equipe para lidar com os riscos.
 
-| ID | Probabilidade | Impacto | Prioridade | Ação|
+| ID | Probabilidade | Impacto | Prioridade | Ação de Resposta |
 | :-: | :---: | :---: | :---: | :-----: |
+| R01 | 30 | 5 | 10 | Focar nos conhecimentos necessários para o projeto e trazer capacitações de qualidade para a equipe |
+| R02 | 20 | 4 | 8 | Buscar um bom material teórico sobre o assunto e testar bem a arquitetura escolhida |
+| R03 | 15 | 5 | 5 | Realizar Coding Dojos e estudar bem o domínio do tema |
+| R04 | 15 | 4 | 4 | Testar bem o produto desenvolvido antes da entrega |
+| R05 | 10 | 5 | 5 | Realizar um bom acompanhamento com o cliente durante o desenvolvimento |
+| R06 | 80 | 5 | 25 | Ajustar rapidamente o escopo do projeto com os novos requisitos e criar novas issues |
+| R07 | 10 | 5 | 5 | Criar uma persona para seguir de cliente fictício ou escolher um novo tema que possa reaproveitar o que já foi desenvolvido |
+| R08 | 40 | 4 | 12 | Realizar mais reuniões de atualização e acompanhar melhor os membros desmotivados |
+| R09 | 40 | 5 | 15 | Procurar as melhores ferramentas de desenvolvimento e achar alternativas para contornar imprevistos |
+| R10 | 20 | 3 | 6 | Planejar corretamente as sprints e contabilizar o trabalho executado por cada membro |
+| R11 | 20 | 4 | 10 | Discutir com o professor maneiras de ajustar o escopo do projeto para que a carga de trabalho de cada membro continue alinhada com os requisitos da disciplina |
+| R12 | 20 | 3 | 6 | Promover momentos de descontração e manter um ambiente de respeito entre os membros |
