@@ -4,9 +4,8 @@
       "backlogDoProduto",
       "documentoArquitetura",
       "documentoDeVisao",
-      "especificacaoCasosDeUso",
-      "backlogDoProduto",
       "documentoDeComunicacao",
+      "especificacaoCasosDeUso",
       "modelagemDoBancoDeDados",
       "prototipoDeBaixaFidelidade",
       "prototipoDeAltaFidelidade",
@@ -17,7 +16,8 @@
       "planejamentoSprint0", "fechamentoSprint0",
       "planejamentoSprint1", "fechamentoSprint1",
       "planejamentoSprint2", "fechamentoSprint2",
-      "planejamentoSprint3"
+      "planejamentoSprint3", "fechamentoSprint3",
+      "planejamentoSprint4"
     ]
   }
 }

@@ -76,7 +76,7 @@ Para a persistência de dados, será utilizado o sistema gerenciador de banco de
 
 O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utilização de UUID para colunas ID do tipo primary key, além oferecer uma gama de tipos de dados, auxiliando no desenvolvimento de um bom projeto de banco de dados.
 
-![Modelagem do Banco de Dados](link)
+#### [Modelagem do Banco de Dados](modelagemDoBancoDeDados)
 
 ## Metas e restrições arquiteturais
 
