@@ -5,8 +5,10 @@
       "documentoArquitetura",
       "documentoDeVisao",
       "especificacaoCasosDeUso",
+      "backlogDoProduto",
       "modelagemDoBancoDeDados",
-      "prototipoDeBaixaFidelidade"
+      "prototipoDeBaixaFidelidade",
+      "prototipoDeAltaFidelidade"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
