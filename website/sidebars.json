@@ -9,7 +9,9 @@
       "documentoDeComunicacao",
       "modelagemDoBancoDeDados",
       "prototipoDeBaixaFidelidade",
-      "prototipoDeAltaFidelidade"
+      "prototipoDeAltaFidelidade",
+      "planoDeGerenciamentoDeRiscos"
+
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
