@@ -1,7 +1,7 @@
 ---
 id: modelagemDoBancoDeDados
-title: modelagemDoBancoDeDados
-sidebar_label: modelagemDoBancoDeDados
+title: Modelagem Do Banco De Dados
+sidebar_label: Modelagem Do Banco De Dados
 ---
 
 ## Histórico de Versões
