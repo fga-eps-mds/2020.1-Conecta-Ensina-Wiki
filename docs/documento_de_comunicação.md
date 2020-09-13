@@ -1,7 +1,7 @@
 ---
 id: documentoDeComunicacao
-title: Documento de Comunicação
-sidebar_label: Documento de Comunicação
+title: Documento de comunicação
+sidebar_label: Documento de comunicação
 ---
 
 ## Histórico de Versões
