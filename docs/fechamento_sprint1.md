@@ -4,9 +4,9 @@ title: Fechamento Sprint 1
 sidebar_label: Fechamento Sprint 1
 ---
 
-## 1. Indicadores de Qualidade do Processo
+## Indicadores de Qualidade do Processo
 
-### 1.1 Fechamento da Sprint
+### Fechamento da Sprint
 
 | Histórias Planejadas | Status |
 |----------------------|--------|
@@ -15,11 +15,11 @@ sidebar_label: Fechamento Sprint 1
 | Definição das tecnologias | Concluído |
 | Identidade visual do projeto | Concluído |
 
-### 1.2 Burndown
+### Burndown
 
 ![Burndown Sprint 1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint1.png)
 
-### 1.3 Velocity
+### Velocity
 
 | Sprint | Pontos Concluídos |
 |--------|-------------------|
@@ -30,7 +30,7 @@ Total de Pontos: 13 <br>
 Sprints: 2 <br>
 Velocity: 6 <br>
 
-### 1.4 Retrospectiva
+### Retrospectiva
 
 <table>
 <tr>
@@ -66,11 +66,11 @@ Velocity: 6 <br>
 </tr>
 </table>
 
-### 1.6 Análise do Scrum Master
+### Análise do Scrum Master
 
 Houve uma demora em marcar a primeira reunião com o cliente e sabermos exatamente o projeto proposto, mas agora temos uma noção melhor do projeto e estamos motivados tanto com o projeto quanto com a participação do cliente.
 
-### 1.7 Análise do Product Owner
+### Análise do Product Owner
 
 Faltava detalhar melhor as funcionalidades para começar a desenvolver melhor o produto mas o 
 cliente está bem disposto e animado com o projeto e fácil de contactar e marcar reuniões.

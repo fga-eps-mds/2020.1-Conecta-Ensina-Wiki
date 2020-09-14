@@ -4,14 +4,14 @@ title: Planejamento Sprint 0
 sidebar_label: Planejamento Sprint 0
 ---
 
-## 1. Resumo
+## Resumo
 
 Período: 17/08/2020 - 24/08/2020 <br>
 Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
 
-## 2. Sprint Backlog
+## Sprint Backlog
 
 | Tarefa | Pontos |
 |--------|--------|
@@ -22,6 +22,6 @@ Devops: Igor Veludo <br>
 
 Total de pontos: 8
 
-## 3. Pareamentos
+## Pareamentos
 
 Nesta sprint não houve pareamento, todas as atividades foram feitas em conjunto.

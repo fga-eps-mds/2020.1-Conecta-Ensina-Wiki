@@ -4,9 +4,9 @@ title: Fechamento Sprint 3
 sidebar_label: Fechamento Sprint 3
 ---
 
-## 1. Indicadores de Qualidade do Processo
+## Indicadores de Qualidade do Processo
 
-### 1.1 Fechamento da Sprint
+### Fechamento da Sprint
 
 | Histórias Planejadas | Status |
 |----------------------|--------|
@@ -15,11 +15,11 @@ sidebar_label: Fechamento Sprint 3
 | Plano de gerenciamento de Custos | Concluído |
 | Protótipo de alta fidelidade | Concluído |
 
-### 1.2 Burndown
+### Burndown
 
 ![Burndown Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint3.png)
 
-### 1.3 Velocity
+### Velocity
 
 | Sprint | Pontos Concluídos |
 |--------|-------------------|
@@ -32,7 +32,7 @@ Total de Pontos: 40 <br>
 Sprints: 4 <br>
 Velocity: 10 <br>
 
-### 1.4 Retrospectiva
+### Retrospectiva
 
 <table>
 <tr>
@@ -63,14 +63,14 @@ Velocity: 10 <br>
 </tr>
 </table>
 
-### 1.6 Análise do Scrum Master
+### Análise do Scrum Master
 
 Todos os membros nítidamente estão mais engajados e mais animados com o projeto. Como já temos um entendimento mais concreto e documentado do projeto, podemos começar a elaborar código. Como os membros não estão totalmente familiarizados com a tecnologia, quanto antes começarmos melhor para nos aperfeiçoarmos mais rápido. A partir desta Sprint, é pertinente manter um quadro de conhecimento para analisar a evolução do time.
 
-### 1.7 Análise do Product Owner
+### Análise do Product Owner
 
 Os protótipos estão ajudando bastante a entender o produto, mas alguns fluxos ainda não estão muito bem definidos. Com o início do desenvolvimento podemos chegar a mais dúvidas e concretizar melohor o produto.
 
-## 2. Quadro de Conhecimento
+## Quadro de Conhecimento
 
 ![Quadro de Conhecimento Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/quadro_de_conhecimento_sprint3.png)

@@ -9,6 +9,7 @@ sidebar_label: Documento de comunicação
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
 | 28/08/2020 | 0.1 | Criação do documento | Júlio Schneider, Edvan Gomes | 
+| 13/08/2020 | 0.2 | Inserção de ícones | Júlio Schneider, Edvan Gomes | 
 
 ## Objetivo
 
@@ -36,12 +37,15 @@ A comunicação interna da equipe se dá principalmente por meio da plataforma D
 | Pareamento | Decidido pelo par. |
 
 ### Comunicação Externa
-  - ## Professor
-    A comunicação com o professor da disciplina é feita por meio do Slack, onde são discutidos assuntos e questões simples sobre a matéria no geral, e também por meio do Jitsi, onde eram realizadas as aulas, e também reuniões esporádicas.
-      
-    | Aulas | Terça | Quinta  |
-    | ------ | ------ | ------ |
-    | MDS | 16-18 | 16-18 |
-    | EPS | 14-16 | 14-16 |
-  - ## Cliente
-    As reuniões com o cliente são feitas por meio do Discord,  não havia necessariamente uma periodicidade das reuniões, também há comunicação de detalhes por meio do Whatsapp.
+#### Professor
+
+A comunicação com o professor da disciplina é feita por meio do Slack, onde são discutidos assuntos e questões simples sobre a matéria no geral, e também por meio do Jitsi, onde eram realizadas as aulas, e também reuniões esporádicas.
+  
+| Aulas | Terça | Quinta  |
+| ------ | ------ | ------ |
+| MDS | 16-18 | 16-18 |
+| EPS | 14-16 | 14-16 |
+
+#### Cliente
+
+  As reuniões com o cliente são feitas por meio do Discord,  não havia necessariamente uma periodicidade das reuniões, também há comunicação de detalhes por meio do Whatsapp.

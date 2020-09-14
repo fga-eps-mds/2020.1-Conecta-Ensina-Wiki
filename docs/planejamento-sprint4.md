@@ -4,14 +4,14 @@ title: Planejamento Sprint 4
 sidebar_label: Planejamento Sprint 4
 ---
 
-## 1. Resumo
+## Resumo
 
 Período: 14/09/2020 - 21/09/2020 <br>
 Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
 
-## 2. Sprint Backlog
+## Sprint Backlog
 
 | Tarefa | Pontos |
 |--------|--------|
@@ -22,7 +22,7 @@ Devops: Igor Veludo <br>
 
 Total de pontos: 16
 
-## 3. Pareamentos
+## Pareamentos
 
 | Dupla | Tarefas | Total de Pontos |
 |-------|---------|-----------------|

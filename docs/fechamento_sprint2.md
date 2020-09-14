@@ -4,9 +4,9 @@ title: Fechamento Sprint 2
 sidebar_label: Fechamento Sprint 2
 ---
 
-## 1. Indicadores de Qualidade do Processo
+## Indicadores de Qualidade do Processo
 
-### 1.1 Fechamento da Sprint
+### Fechamento da Sprint
 
 | Histórias Planejadas | Status |
 |----------------------|--------|
@@ -16,11 +16,11 @@ sidebar_label: Fechamento Sprint 2
 | Configuração do Docker| Concluído |
 | Especificação dos casos de uso | Concluído |
 
-### 1.2 Burndown
+### Burndown
 
 ![Burndown Sprint 2](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint2.png)
 
-### 1.3 Velocity
+### Velocity
 
 | Sprint | Pontos Concluídos |
 |--------|-------------------|
@@ -32,7 +32,7 @@ Total de Pontos: 28 <br>
 Sprints: 3 <br>
 Velocity: 9 <br>
 
-### 1.4 Retrospectiva
+### Retrospectiva
 
 <table>
 <tr>
@@ -72,10 +72,10 @@ Velocity: 9 <br>
 </tr>
 </table>
 
-### 1.6 Análise do Scrum Master
+### Análise do Scrum Master
 
 Houve novamente uma demora para marcar a reunião com o cliente mas logo após a reunião todos os membros iniciaram os trabalhso e todos as issues da sprint foram devidamente feitas. O time está bem alinhado como um todo.
 
-### 1.7 Análise do Product Owner
+### Análise do Product Owner
 
 As funcionalidades estão bem mais detalhadas e o projeto está evoluindo bastante. Ao mesmo tempo em que começamos a produzir, surjem dúvidas e a complexidade torna a experiência interessante.
