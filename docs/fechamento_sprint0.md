@@ -4,9 +4,9 @@ title: Fechamento Sprint 0
 sidebar_label: Fechamento Sprint 0
 ---
 
-## 1. Indicadores de Qualidade do Processo
+## Indicadores de Qualidade do Processo
 
-### 1.1 Fechamento da Sprint
+### Fechamento da Sprint
 
 | Histórias Planejadas | Status |
 |----------------------|--------|
@@ -15,11 +15,11 @@ sidebar_label: Fechamento Sprint 0
 | Criação do git | Concluído |
 | Definição dos meios de comunicação | Concluído |
 
-### 1.2 Burndown
+### Burndown
 
 ![Burndown Sprint 0](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint0.png)
 
-### 1.3 Velocity
+### Velocity
 
 | Sprint | Pontos Concluídos |
 |--------|-------------------|
@@ -29,7 +29,7 @@ Total de Pontos: 8 <br>
 Sprints: 1 <br>
 Velocity: 8 <br>
 
-### 1.4 Retrospectiva
+### Retrospectiva
 
 <table>
 <tr>
