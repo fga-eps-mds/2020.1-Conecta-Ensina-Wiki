@@ -10,7 +10,8 @@
       "modelagemDoBancoDeDados",
       "prototipoDeBaixaFidelidade",
       "prototipoDeAltaFidelidade",
-      "planoDeGerenciamentoDeRiscos"
+      "planoDeGerenciamentoDeRiscos",
+      "planoDeCustos"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",

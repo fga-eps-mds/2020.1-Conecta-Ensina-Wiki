@@ -155,6 +155,6 @@ As respostas aos riscos são apresentadas em tabela, integrando a análise quant
 | R12 | 20 | 3 | 6 | Prevenir |
 
 ## 7. Bibliografia
-[Plano de gerenciamento de riscos da equipe Aix](https://fga-eps-mds.github.io/2019.1-Aix/gerencia/2019/04/06/plano-de-gerenciamento-de-riscos/)
-[Plano de gerenciamento de riscos da equipe Escola X](https://github.com/fga-eps-mds/2017.1-Escola-X/wiki/Plano-de-Gerenciamento-de-Riscos)
-[Plano de gerenciamento de riscos da equipe Quero Cultura](https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-de-Riscos)
+* [Plano de gerenciamento de riscos da equipe Aix](https://fga-eps-mds.github.io/2019.1-Aix/gerencia/2019/04/06/plano-de-gerenciamento-de-riscos/)
+* [Plano de gerenciamento de riscos da equipe Escola X](https://github.com/fga-eps-mds/2017.1-Escola-X/wiki/Plano-de-Gerenciamento-de-Riscos)
+* [Plano de gerenciamento de riscos da equipe Quero Cultura](https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-de-Riscos)
