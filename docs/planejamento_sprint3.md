@@ -17,7 +17,7 @@ Devops: Igor Veludo <br>
 |--------|--------|
 | Documento de Arquitetura | 3 |
 | Modelagem do Banco de Dados | 3 |
-| Plano de gerenciamento de Custos | 3 |
+| Plano de gerenciamento de riscos | 3 |
 | Protótipo de alta fidelidade | 3 |
 
 Total de pontos: 12
