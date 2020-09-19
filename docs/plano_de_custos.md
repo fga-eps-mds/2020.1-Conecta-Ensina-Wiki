@@ -12,7 +12,7 @@ sidebar_label: Plano de gerenciamento de custos
 | 16/09/2020 | 0.2 | Criação do controlar custos | João Vitor  e João Pedro Mota |
 | 17/09/2020 | 0.3 | Criação do segundo tópico (Estimar custos) | João Vitor e João Pedro Mota |
 | 17/09/2020 | 0.4 | Criação da introdução e quarto tópico | João Vitor e João Pedro Mota |
-
+| 19/09/2020 | 0.5 | Realização das estimativas de custo | João Vitor  e João Pedro Mota |
 
 ## 1. Introdução 
 
@@ -22,7 +22,10 @@ Este documento tem como objetivo identificar e documentar a forma como será rea
 
 Estimar os custos é o processo de desenvolvimento de uma estimativa dos recursos monetários necessários para executar as atividades do projeto (PMBOK, pág. 200).
 Para a execução dessa estimativa em nosso projeto utilizamos o backlog do produto (BP) para a lista de atividades, a técnica de planning poker para estimar a dificuldade de cada tarefa e a média de horas gastas nas primeiras sprints por atividade em relação a sua pontuação (HP) para estimar o total de horas do projeto.
-Para a estimativa custo-hora (CH) foi utilizado o valor médio gasto mensalmente pela UsP com estudantes de Engenharia, sendo 2200 reais, divididos pela quantidade de dias úteis por mês (21) e média de 5 horas diárias na universidade. Sendo o CH =  20,95.
+Para a estimativa custo-hora (CH) foi utilizado o valor médio gasto mensalmente pela UsP com estudantes de Engenharia, sendo 2200 reais, divididos pela quantidade de dias úteis por mês (21) e média de 5 horas diárias na universidade. Sendo o CH =  20,95.<br>
+Como a estimativa das atividades restantes foram feitas sem os membros possuírem conhecimento sobre as tecnologias, o valor real pode sofrer alterações consideráveis no decorrer do projeto.<br>
+O custo total do projeto pode ser observado clicando [aqui](https://docs.google.com/spreadsheets/d/1u7Hlolp_8GkGjKMSFLsNkmafecExe6sS8smiyK-zd10/edit?usp=sharing).
+
 
 **Equação:** `Custo estimado = Total de pontos do projeto x HP x CH`
 
@@ -31,8 +34,6 @@ Para a estimativa custo-hora (CH) foi utilizado o valor médio gasto mensalmente
 
 Controlar os custos é o processo de monitoramento do andamento do projeto para atualização no seu orçamento e gerenciamento das mudanças feitas na linha de base de custos, segundo PMBOK. Utilizaremos para o controle de custos o GVA (Gerenciamento de valor agregado), que é composto por três elementos.
 
-| Sigla | Definição | Descrição |
-| :---------: | :-------: | :--------: |
 | Sigla | Definição | Descrição |
 | :---------: | :-------: | :--------: |
 | VP | Valor planejado | É o orçamento autorizado designado para o trabalho a ser executado. Será calculado a partir do custo definido na estimativa acima |  
@@ -95,9 +96,12 @@ Com a aquisição dos índices de **desempenho de custos** e de **desempenho de 
 
 | | Atraso no cronograma | Dentro do prazo | Adiantado no Cronograma |
 | :-: | :---------: | :-------: | :--------: |
-| Abaixo do orçamento |  | | |
-| Dentro do orçamento | | | |
-| Acima do orçamento | | | |
+| Abaixo do orçamento | São necessários mais dados | Bom | Bom |
+| Dentro do orçamento | Ruim  | Bom | Bom |
+| Acima do orçamento | Ruim  | Ruim  | São necessários mais dados  |
+
+Com isso, podemos dizer que o projeto atualmente(19/10/2020) se encontra em estado **bom**.
+
 
 ## 5. Referências
 
