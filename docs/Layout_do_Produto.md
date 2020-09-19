@@ -16,4 +16,4 @@ Este artefato possui como finalidade a documentação do layout do produto, que 
 
 ## Layout do Produto
 
-O nosso layout pode ser acessado através desse <a href="https://www.figma.com/file/RmWUYUtRqIwvaHyrZOfkcr/Protótipo-0.2?node-id=0:1"> link </a>.
+O nosso layout pode ser acessado através desse <a href="https://www.figma.com/proto/RmWUYUtRqIwvaHyrZOfkcr/Prot%C3%B3tipo-0.2?node-id=1%3A2&scaling=min-zoom"> link </a>.
