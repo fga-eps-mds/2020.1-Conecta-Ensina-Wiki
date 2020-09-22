@@ -9,8 +9,8 @@
       "modelagemDoBancoDeDados",
       "prototipoDeBaixaFidelidade",
       "prototipoDeAltaFidelidade",
-      "planoDeGerenciamentoDeRiscos"
-
+      "planoDeGerenciamentoDeRiscos",
+      "planoDeGerenciamentoDeCustos"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
