@@ -11,7 +11,7 @@ Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
 
-## Sprint Backlog
+## Sprint backlog
 
 | Tarefa | Pontos |
 |--------|-------|
@@ -26,7 +26,7 @@ Total de pontos: 8
 
 | Equipe | Tarefas | Total de Pontos |
 |-------|---------|-----------------|
-| Denniel William, Edvan e Rhuan | Identidade Visual | 1 |
+| Denniel William, Edvan e Rhuan | Identidade visual | 1 |
 | Igor e Matheus | Roadmap | 3 |
 | João Pedro e Júlio | Configuração da wiki | 1 |
 | João Vitor e Paulo | Definição das tecnologias | 3 |

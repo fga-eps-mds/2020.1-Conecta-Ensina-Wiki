@@ -4,9 +4,9 @@ title: Fechamento Sprint 1
 sidebar_label: Fechamento Sprint 1
 ---
 
-## Indicadores de Qualidade do Processo
+## Indicadores de qualidade do processo
 
-### Fechamento da Sprint
+### Fechamento da sprint
 
 | Histórias Planejadas | Status |
 |----------------------|--------|

@@ -11,13 +11,13 @@ Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
 
-## Sprint Backlog
+## Sprint backlog
 
 | Tarefa | Pontos |
 |--------|--------|
-| Documento de Arquitetura | 3 |
-| Modelagem do Banco de Dados | 3 |
-| Plano de gerenciamento de Custos | 3 |
+| Documento de arquitetura | 3 |
+| Modelagem do banco de dados | 3 |
+| Plano de gerenciamento de custos | 3 |
 | Protótipo de alta fidelidade | 3 |
 
 Total de pontos: 12
@@ -26,7 +26,7 @@ Total de pontos: 12
 
 | Dupla | Tarefas | Total de Pontos |
 |-------|---------|-----------------|
-| Denniel e Paulo | Documento de Arquitetura | 3 |
-| Eddie, Igor e Júlio | Modelagem do Banco de Dados | 3 |
+| Denniel e Paulo | Documento de arquitetura | 3 |
+| Eddie, Igor e Júlio | Modelagem do banco de dados | 3 |
 | João Vitor e Mateus | Plano de gerenciamento de riscos | 3 |
 | João Pedro e Rhuan | Protótipo de alta fidelidade | 3 |

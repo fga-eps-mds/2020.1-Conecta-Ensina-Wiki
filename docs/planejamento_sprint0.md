@@ -11,7 +11,7 @@ Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
 
-## Sprint Backlog
+## Sprint backlog
 
 | Tarefa | Pontos |
 |--------|--------|

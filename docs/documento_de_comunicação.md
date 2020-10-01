@@ -27,7 +27,7 @@ Este documento visa  ilustrar os meios de comunicação, interna e externa, da e
 | <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/whatsapp.svg" alt="wppIcon" width="50" height="30" /> | Software de comunicação focado em troca de mensagens |
 
 ## Estratégia de comunicação
-### Comunicação Interna
+### Comunicação interna
         
 A comunicação interna da equipe se dá principalmente por meio da plataforma Discord, nas daily's, reuniões de sprint e atividades de pareamentos, e por meio da plataforma Telegram, onde são feitas comunicações menores de fácil resolução por meio de mensagens instantâneas, além de marcação das de reuniões.
 | Atividade | Horário |
@@ -36,7 +36,7 @@ A comunicação interna da equipe se dá principalmente por meio da plataforma D
 | Fim de Sprint | Sábado as 14h. |
 | Pareamento | Decidido pelo par. |
 
-### Comunicação Externa
+### Comunicação externa
 #### Professor
 
 A comunicação com o professor da disciplina é feita por meio do Slack, onde são discutidos assuntos e questões simples sobre a matéria no geral, e também por meio do Jitsi, onde eram realizadas as aulas, e também reuniões esporádicas.
