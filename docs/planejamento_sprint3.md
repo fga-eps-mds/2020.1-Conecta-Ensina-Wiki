@@ -15,9 +15,9 @@ Devops: Igor Veludo <br>
 
 | Tarefa | Pontos |
 |--------|--------|
-| Documento de arquitetura | 3 |
-| Modelagem do banco de dados | 3 |
-| Plano de gerenciamento de custos | 3 |
+| Documento de Arquitetura | 3 |
+| Modelagem do Banco de Dados | 3 |
+| Plano de gerenciamento de riscos | 3 |
 | Protótipo de alta fidelidade | 3 |
 
 Total de pontos: 12
