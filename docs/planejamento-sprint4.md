@@ -6,7 +6,7 @@ sidebar_label: Planejamento Sprint 4
 
 ## Resumo
 
-Período: 14/09/2020 - 21/09/2020 <br>
+Período: 14/09/2020 - 20/09/2020 <br>
 Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
