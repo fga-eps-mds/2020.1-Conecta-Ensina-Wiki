@@ -11,6 +11,7 @@ sidebar_label: Modelagem do banco de dados
 | 10/09/2020 | 0.1 | Criação do documento | Júlio Schneider, Edvan Gomes, Igor Veludo |
 | 11/09/2020 | 0.2 | Atualização do Banco de Dados | Júlio Schneider, Edvan Gomes, Igor Veludo |
 | 01/10/2020 | 0.3 | Criação do modelo conceitual | Paulo Victor |
+| 02/10/2020 | 0.4 | Atualização do modelo conceitual | Paulo Victor e João Pedro |
 
 ## Introdução
 
@@ -18,17 +19,18 @@ Este artefato possui como finalidade a documentação da modelagem do banco de d
 
 ## Modelagem do Banco de dados
 
-### Modelo Conceitual
+### Modelo Entidade-Relacionamento (MER)
 
 #### Entidades
 
 - USER (<u>ID</u>, firstName, lastName, email, password, cellphone, role)
 - STUDENT (<u>*idUser*</u>, cpfParent, address(CEP, street, number, complement), institution, serie)
 - SUBJECT (<u>ID</u>, graduation, name)
-- TEACHER (<u>*idUser*</u>, cpf, address(CEP, street, number, complement), photo, description, video, institution, graduation, graduationArea, degree, *subject []*, bank, agency, account, admission)
-- CLASS (<u>ID</u>, *teacher*, *student*, serie, *subject*, date, hour, duration, address(CEP, street, number), admission, timer)
+- TEACHER (<u>*idUser*</u>, cpf, address(CEP, street, number, complement), photo, description, video, institution, graduation, graduationArea, degree, *subject []*, bank, agency, account, status)
+- CLASS (<u>ID</u>, *teacher*, *student*, serie, *subject*, dtClass, duration, address(CEP, street, number), status, timer)
 - RATINGTEACHER (<u>*class*</u>, stars, rating)
 - RATINGSTUDENT (<u>*class*</u>, rating)
+- REPORT (<u>ID</u>, *teacher*, report)
 - FAQ (<u>ID</u>, question, answer)
 
 #### Cardinalidades
@@ -57,7 +59,9 @@ CLASS 0:1 RATINGTEACHER
 - CLASS pode ter um RATINGSTUDENT, RATINGSTUDENT é a uma CLASS.<br>
 CLASS 0:1 RATINGSTUDENT
 
-Versão 0.1 do modelo relacional do banco de dados. 
+### Diagrama Entidade-Relacionamento (DER)
+
+Versão 0.1 do modelo relacional do banco de dados.
 
 ![Modelagem do Banco de Dados v0.1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados_v01.svg)
 
