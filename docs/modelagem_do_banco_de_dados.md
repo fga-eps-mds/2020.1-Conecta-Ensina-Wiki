@@ -24,18 +24,19 @@ Este artefato possui como finalidade a documentação da modelagem do banco de d
 
 - USER (<u>ID</u>, firstName, lastName, email, password, cellphone, role)
 - STUDENT (<u>*idUser*</u>, cpfParent, address(CEP, street, number, complement), institution, serie)
-- SUBJECT (<u>ID</u>, serie, name)
-- TEACHER (<u>*idUser*</u>, cpf, admission, photo, description, video, institution, graduation, graduationArea, *subject []*, bank, agency, account, degree)
-- CLASS (<u>ID</u>, *teacher*, *student*, serie, *subject*, date, hour, address(CEP, street, number), admission, duration)
-- RATING (<u>ID</u>, *ratedUser*, stars, rating)
-- OPINION (<u>ID</u>, opinion)
+- SUBJECT (<u>ID</u>, graduation, name)
+- TEACHER (<u>*idUser*</u>, cpf, address(CEP, street, number, complement), photo, description, video, institution, graduation, graduationArea, degree, *subject []*, bank, agency, account, admission)
+- CLASS (<u>ID</u>, *teacher*, *student*, serie, *subject*, date, hour, duration, address(CEP, street, number), admission, timer)
+- RATINGTEACHER (<u>*class*</u>, stars, rating)
+- RATINGSTUDENT (<u>*class*</u>, rating)
+- FAQ (<u>ID</u>, question, answer)
 
 #### Cardinalidades
 
-- USER é pode ser até um STUDENT, STUDENT é um USER.<br>
+- USER é pode ser um STUDENT, STUDENT é um USER.<br>
 USER 0:1 STUDENT
 
-- USER é pode ser até um TEACHER, TEACHER é um USER.<br>
+- USER é pode ser um TEACHER, TEACHER é um USER.<br>
 USER 0:1 TEACHER
 
 - TEACHER pode dar várias SUBJECTS, SUBJECT pode ser dada por vários TEACHERS.<br>
@@ -50,8 +51,11 @@ STUDENT 1:N CLASS
 - CLASS é de uma SUBJECT, SUBJECT pode ter várias CLASSES.<br>
 CLASS N:1 SUBJECT
 
-- RATING é a um USER, USER pode ter várias RATINGS.<br>
-RATING N:1 USER
+- CLASS pode ter um RATINGTEACHER, RATINGTEACHER é a uma CLASS.<br>
+CLASS 0:1 RATINGTEACHER
+
+- CLASS pode ter um RATINGSTUDENT, RATINGSTUDENT é a uma CLASS.<br>
+CLASS 0:1 RATINGSTUDENT
 
 Versão 0.1 do modelo relacional do banco de dados. 
 
