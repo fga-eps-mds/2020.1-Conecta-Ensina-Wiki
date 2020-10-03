@@ -136,7 +136,7 @@ O _software_ será utilizado de dispositivos móveis que possuam o sistema opera
 
 |  |  |  
 |--|---|
-|**Representantes**| Fábio e Carol |  
+|**Representantes**| Fábio Enzio e Carol Zanetti |  
 |**Descrição**  | Funcionários da empresa Conecta-Ensina |
 |**Tipo**  | Cliente de gerenciamento de aulas particulares |
 |**Responsabilidades**  | Designar os principais requisitos e informações para o desenvolvimento da aplicação |
@@ -256,8 +256,7 @@ Ferramenta responsável pelo contato inicial do usuário e as instruções bási
  
 ### Formas de pagamentos
  
-Permite que o usuário aluno escolha o melhor método de pagamento ao solicitar um professor.
- 
+Permite que o usuário aluno escolha o melhor método de pagamento ao solicitar um professor. 
 
 ## Restrições
 
