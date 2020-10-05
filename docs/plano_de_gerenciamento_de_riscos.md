@@ -17,6 +17,7 @@ sidebar_label: Plano de gerenciamento de riscos
 | 11/09/2020 | 0.7 | Criação da tabela de nível de prioridade | João Vitor e Mateus |
 | 12/09/2020 | 0.8 | Criação da tabela de respostas aos riscos | João Vitor e Mateus |
 | 12/09/2020 | 0.9 | Revisão | João Vitor e Mateus |
+| 01/10/2020 | 0.9.1 | Revisão de documentação | Igor Veludo, João Vitor e Mateus |
 
 ## Introdução
 
