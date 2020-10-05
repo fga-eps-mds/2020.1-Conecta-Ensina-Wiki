@@ -18,6 +18,8 @@ Exemplo do fluxo de branches:
 
 Toda branch criada deve estar relacionada a uma funcionalidade ou correção, logo necessariamente deverá estar atrelada a uma Issue. O nome da branch deve ser em INGLÊS e deve seguir o padrão:
 
+- doc/IssueID-descrição-curta: para documentações
+
 - feature/IssueID-descrição-curta: para funcionalidades.
 
 - hotfix/IssueID-descrição-curta: para correções;
