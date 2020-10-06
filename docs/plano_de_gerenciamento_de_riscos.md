@@ -17,6 +17,7 @@ sidebar_label: Plano de gerenciamento de riscos
 | 11/09/2020 | 0.7 | Criação da tabela de nível de prioridade | João Vitor e Mateus |
 | 12/09/2020 | 0.8 | Criação da tabela de respostas aos riscos | João Vitor e Mateus |
 | 12/09/2020 | 0.9 | Revisão | João Vitor e Mateus |
+| 01/10/2020 | 0.9.1 | Revisão de documentação | Igor Veludo, João Vitor e Mateus |
 
 ## Introdução
 
@@ -26,11 +27,11 @@ Este documento tem como objetivo identificar e categorizar possíveis riscos ao 
 
 ### Metodologia
 
-No projeto será realizada uma análise quantitativa, que tem por objetivo a priorização e categorizados riscos de acordo com a probabilidade (chances de ocorrência de um risco) e o impacto (o quanto o risco interfere no desenvolvimento do projeto).
+No projeto será realizada uma análise quantitativa, que tem por objetivo  realizar a priorização e categorização dos riscos de acordo com a probabilidade (chances de ocorrência de um risco) e o impacto (o quanto o risco interfere no desenvolvimento do projeto).
 
 ### Papéis e responsabilidade
 
-Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e monitoramento dos riscos que estão presentes em ciclo de vida do desenvolvimento do projeto. Os membros e os riscos por quais ficaram responsáveis serão definidos em reunião virtual, com base no perfil de cada membro da gerência.
+Os integrantes da equipe de gerência (EPS) estão responsáveis pelo controle e monitoramento dos riscos que estão presentes no ciclo de vida do desenvolvimento do projeto. Os membros e os riscos por quais ficaram responsáveis serão definidos em reunião virtual, com base no perfil de cada membro da gerência.
 
 ## Categoria dos riscos
 
@@ -54,7 +55,7 @@ Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, contro
 
 ## Documentação dos riscos
 
-Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela descrição dos riscos, categoria, causas e consequências. Os riscos são indexados com um ID para a identificação.
+Para a documentação dos riscos, foi utilizada uma tabela, sendo composta pela descrição do risco, categoria, causa e consequência. Os riscos são indexados com um ID para sua identificação.
 
 | ID | Risco | Categoria | Causa | Consequência |
 | :-: | :---: | :-------: | :---: | :-----: |
@@ -133,7 +134,7 @@ Na estratégia de mitigar o risco, a equipe age para reduzir a probabilidade ou 
 
 ### Aceitar 
 
-A aceitação é a resposta ao risco que a equipe do projeto estabelece não agir para diminuir a ocorrência. Essa postura referente a um risco é aplicada quando é inviável evitar, diminuir ou transferir o risco.
+A aceitação é a resposta ao risco que a equipe do projeto decide não agir para diminuir sua ocorrência. Essa postura é aplicada quando é inviável evitar, diminuir ou transferir o risco.
 
 ### Respostas aos riscos
 
