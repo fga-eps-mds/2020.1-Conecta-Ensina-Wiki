@@ -10,7 +10,8 @@
       "prototipoDeBaixaFidelidade",
       "prototipoDeAltaFidelidade",
       "planoDeGerenciamentoDeRiscos",
-      "planoDeGerenciamentoDeCustos"
+      "planoDeGerenciamentoDeCustos",
+      "roadmapDoProduto"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",
