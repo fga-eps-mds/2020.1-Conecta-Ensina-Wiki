@@ -68,15 +68,6 @@ CLASS 0:1 RATINGSTUDENT
 
 ### Diagrama Entidade-Relacionamento (DER)
 
-Versão 0.1 do modelo relacional do banco de dados.
+![Modelagem do Banco de Dados v0.3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/database/modelagem_banco_de_dados_v03.png)
 
-![Modelagem do Banco de Dados v0.1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados_v01.svg)
-
-Versão 0.2 do modelo relacional do banco de dados. 
-
-![Modelagem do Banco de Dados v0.2](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados_v02.svg)
-
-Versão 0.3 do modelo relacional do banco de dados. 
-
-![Modelagem do Banco de Dados v0.3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/modelagem_banco_de_dados_v03.png)
-
+[Para ver versões antigas, clique aqui](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/tree/master/website/static/img/database)

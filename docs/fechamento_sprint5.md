@@ -21,7 +21,7 @@ sidebar_label: Fechamento Sprint 5
 
 ### Burndown
 
-![Burndown Sprint 5](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint5.png)
+![Burndown Sprint 5](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/burndown_sprint5.png)
 
 ### Velocity
 
@@ -83,4 +83,4 @@ Sem dívidas técnicas fica mais visível a entrega sendo feita e assim, mantemo
 
 ## Quadro de Conhecimento
 
-![Quadro de Conhecimento Sprint 5](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/quadro_de_conhecimento_sprint5.png)
+![Quadro de Conhecimento Sprint 5](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/quadro_de_conhecimento_sprint5.png)

@@ -17,7 +17,7 @@ sidebar_label: Fechamento Sprint 1
 
 ### Burndown
 
-![Burndown Sprint 1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint1.png)
+![Burndown Sprint 1](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/burndown_sprint1.png)
 
 ### Velocity
 

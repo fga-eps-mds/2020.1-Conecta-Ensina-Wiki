@@ -17,7 +17,7 @@ sidebar_label: Fechamento Sprint 4
 
 ### Burndown
 
-![Burndown Sprint 4](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint4.png)
+![Burndown Sprint 4](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/burndown_sprint4.png)
 
 ### Velocity
 
@@ -73,4 +73,4 @@ As tarefas devem ser melhor especificadas quando passadas, além do planejamento
 
 ## Quadro de Conhecimento
 
-![Quadro de Conhecimento Sprint 4](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/quadro_de_conhecimento_sprint4.png)
+![Quadro de Conhecimento Sprint 4](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/quadro_de_conhecimento_sprint4.png)
