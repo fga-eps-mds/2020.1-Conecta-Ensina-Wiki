@@ -13,8 +13,9 @@ sidebar_label: Plano de gerenciamento de custos
 | 17/09/2020 | 0.3 | Criação do segundo tópico (Estimar custos) | João Vitor e João Pedro Mota |
 | 17/09/2020 | 0.4 | Criação da introdução e quarto tópico | João Vitor e João Pedro Mota |
 | 19/09/2020 | 0.5 | Realização das estimativas de custo | João Vitor  e João Pedro Mota |
-| 01/10/2020 | 0.6 | Revisão de documentação | Igor Veludo, João Vitor e Matheus Gomes |
+| 01/10/2020 | 0.6 | Revisão de documentação | Igor Veludo, João Vitor e Mateus Gomes |
 | 01/10/2020 | 0.7 | Adequação da planilha | João Pedro Mota |
+| 08/10/2020 | 0.8 | Atualização das estimativas de custo | João Pedro Mota e demais |
 
 ## 1. Introdução 
 
@@ -23,7 +24,7 @@ Este documento tem como objetivo identificar e documentar a forma como será rea
 ## 2. Estimar custos
 
 Estimar os custos é o processo de desenvolvimento de uma estimativa dos recursos monetários necessários para executar as atividades do projeto (PMBOK, pág. 200).
-Para a execução dessa estimativa em nosso projeto utilizamos o backlog do produto (BP) para a lista de atividades, a técnica de planning poker para estimar a dificuldade de cada tarefa e a média de horas gastas nas primeiras sprints por atividade em relação a sua pontuação (HP) para estimar o total de horas do projeto.
+Para a execução dessa estimativa em nosso projeto utilizamos o roadmap do produto (RP) para a lista de atividades, a técnica de planning poker para estimar a dificuldade de cada tarefa e a média de horas gastas nas primeiras sprints por atividade em relação a sua pontuação (HP) para estimar o total de horas do projeto (HP = 1,836734694).
 Para a estimativa custo-hora (CH) foi utilizado o valor médio gasto mensalmente pela UsP com estudantes de Engenharia, sendo 2200 reais, divididos pela quantidade de dias úteis por mês (21) e média de 5 horas diárias na universidade. Sendo o CH = 20,95.<br>
 Como a estimativa das atividades restantes foram feitas sem os membros possuírem conhecimento sobre as tecnologias, o valor real pode sofrer alterações consideráveis no decorrer do projeto.<br>
 O custo total do projeto pode ser observado clicando [aqui](https://docs.google.com/spreadsheets/d/1u7Hlolp_8GkGjKMSFLsNkmafecExe6sS8smiyK-zd10/edit?usp=sharing).
@@ -102,10 +103,10 @@ Com a aquisição dos índices de **desempenho de custos** e de **desempenho de 
 | Dentro do orçamento | Ruim  | Bom | Bom |
 | Acima do orçamento | Ruim  | Ruim  | São necessários mais dados  |
 
-Com isso, podemos dizer que o projeto atualmente(19/10/2020) se encontra em estado **bom**.
+Com isso, podemos dizer que o projeto atualmente(08/10/2020) se encontra em estado **ruim**.
 
 ## 5. Gráfico de Custos
-![Custo](website/static/img/custos.png)
+![Custo](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/Analise_custo_release1.png)
 
 ## 6. Referências
 
