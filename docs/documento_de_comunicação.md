@@ -18,14 +18,14 @@ Este documento visa  ilustrar os meios de comunicação, interna e externa, da e
 
 ## Tecnologias
   
-| Ferramenta | Funcionalidade | Uso |
-| :------: | ------ | ------ |
-| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/discord.svg" alt="discordIcon" width="50" height="30" /> <br>Discord | Software para reuniões virtuais de voz e/ou vídeo. | Usado para realizar e gerenciar as reuniões de equipe e reuniões com o cliente. |
-| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/googledrive.svg" alt="driveIcon" width="50" height="30" /> <br>Drive | Plataforma de compartilhamento de documentos. | Usado para armazenar e compartilhar os documentos e arquivos relacionados ao projeto. |
-| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/jitsi.svg" alt="jitsiIcon" width="50" height="30" /> <br>Jitsi | Software para reuniões virtuais de voz e/ou vídeo. | Usado para realizar as reunições da equipe com o professor. |
-| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/slack.svg" alt="slackIcon" width="50" height="30" /> <br>Slack | Plataforma que reúne diversos recursos para gerenciamento de equipes. | Usado para o gerenciamento da equipe. |
-| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/telegram.svg" alt="telegramIcon" width="50" height="30" /> <br>Telegram | Software de comunicação focado em troca de mensagens | Usado para a comunicação da equipe. |
-| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/whatsapp.svg" alt="wppIcon" width="50" height="30" /> <br>WhatsApp | Software de comunicação focado em troca de mensagens | Usado para a comunicação instantânea entre membros da equipe e comunicação com o cliente. |
+| Tool | Funcionalidade/Uso |
+| ------ | ------ |
+| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/discord.svg" alt="discordIcon" width="50" height="30" /> | Software para reuniões virtuais de voz e/ou vídeo. |
+| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/googledrive.svg" alt="driveIcon" width="50" height="30" /> | Plataforma de compartilhamento de documentos. |
+| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/jitsi.svg" alt="jitsiIcon" width="50" height="30" /> | Software para reuniões virtuais de voz e/ou vídeo. |
+| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/slack.svg" alt="slackIcon" width="50" height="30" /> | Plataforma que reúne diversos recursos para gerenciamento de equipes. |
+| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/telegram.svg" alt="telegramIcon" width="50" height="30" /> | Software de comunicação focado em troca de mensagens |
+| <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/whatsapp.svg" alt="wppIcon" width="50" height="30" /> | Software de comunicação focado em troca de mensagens |
 
 ## Estratégia de comunicação
 ### Comunicação interna

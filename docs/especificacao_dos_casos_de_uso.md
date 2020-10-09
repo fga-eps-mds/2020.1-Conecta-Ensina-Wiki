@@ -181,3 +181,30 @@ Este artefato possui como finalidade a documentação das especificações de ca
 **Fluxo normal:**
 1. Ator seleciona opção “Minhas avaliações”
 2. Ator visualiza a média de estrelas e comentários mais colocados
+
+
+### UC09 Vizualizar Professor
+
+**Ator(es):** Aluno
+
+**Descrição:** Permite ao aluno vizualizar informações sobre o professor que deseja contrartar
+
+**Pré-condição:** Ter participado de alguma aula avaliada.
+
+**Fluxo normal:**
+1. Ator entra na pagina "professores" do fluxo
+2. Ator seleciona no card com o nome foto e estrelas do professor
+3. Ator lê os dados referidos do professor
+
+### UC10 Vizualizar Professor
+
+**Ator(es):** Professor
+
+**Descrição:** Permite ao Professor vizualizar informações sobre o professor que deseja contrartar
+
+**Pré-condição:** Ter participado de alguma aula avaliada.
+
+**Fluxo normal:**
+1. Ator entra na pagina "Alunos" do fluxo
+2. Ator seleciona no card com o nome foto e estrelas do 
+3. Ator lê os dados referidos do aluno

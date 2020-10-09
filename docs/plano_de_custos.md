@@ -13,16 +13,19 @@ sidebar_label: Plano de gerenciamento de custos
 | 17/09/2020 | 0.3 | Criação do segundo tópico (Estimar custos) | João Vitor e João Pedro Mota |
 | 17/09/2020 | 0.4 | Criação da introdução e quarto tópico | João Vitor e João Pedro Mota |
 | 19/09/2020 | 0.5 | Realização das estimativas de custo | João Vitor  e João Pedro Mota |
+| 01/10/2020 | 0.6 | Revisão de documentação | Igor Veludo, João Vitor e Mateus Gomes |
+| 01/10/2020 | 0.7 | Adequação da planilha | João Pedro Mota |
+| 08/10/2020 | 0.8 | Atualização das estimativas de custo | João Pedro Mota e demais |
 
 ## 1. Introdução 
 
-Este documento tem como objetivo identificar e documentar a forma como será realizada a gerência de custos do projeto. Sendo apresentado o detalhamento do processo de gerenciamento de custos e regras de medição. Portanto, este documento é o responsável por garantir que o projeto seja executado dentro do orçamento planejado.
+Este documento tem como objetivo identificar e documentar a forma como será realizada a gerência de custos do projeto. Sendo apresentado o detalhamento do processo de gerenciamento de custos e regras de medição. Portanto, este documento é responsável por garantir que o projeto seja executado dentro do orçamento planejado.
 
 ## 2. Estimar custos
 
 Estimar os custos é o processo de desenvolvimento de uma estimativa dos recursos monetários necessários para executar as atividades do projeto (PMBOK, pág. 200).
-Para a execução dessa estimativa em nosso projeto utilizamos o backlog do produto (BP) para a lista de atividades, a técnica de planning poker para estimar a dificuldade de cada tarefa e a média de horas gastas nas primeiras sprints por atividade em relação a sua pontuação (HP) para estimar o total de horas do projeto.
-Para a estimativa custo-hora (CH) foi utilizado o valor médio gasto mensalmente pela UsP com estudantes de Engenharia, sendo 2200 reais, divididos pela quantidade de dias úteis por mês (21) e média de 5 horas diárias na universidade. Sendo o CH =  20,95.<br>
+Para a execução dessa estimativa em nosso projeto utilizamos o roadmap do produto (RP) para a lista de atividades, a técnica de planning poker para estimar a dificuldade de cada tarefa e a média de horas gastas nas primeiras sprints por atividade em relação a sua pontuação (HP) para estimar o total de horas do projeto (HP = 1,836734694).
+Para a estimativa custo-hora (CH) foi utilizado o valor médio gasto mensalmente pela UsP com estudantes de Engenharia, sendo 2200 reais, divididos pela quantidade de dias úteis por mês (21) e média de 5 horas diárias na universidade. Sendo o CH = 20,95.<br>
 Como a estimativa das atividades restantes foram feitas sem os membros possuírem conhecimento sobre as tecnologias, o valor real pode sofrer alterações consideráveis no decorrer do projeto.<br>
 O custo total do projeto pode ser observado clicando [aqui](https://docs.google.com/spreadsheets/d/1u7Hlolp_8GkGjKMSFLsNkmafecExe6sS8smiyK-zd10/edit?usp=sharing).
 
@@ -37,7 +40,7 @@ Controlar os custos é o processo de monitoramento do andamento do projeto para 
 | Sigla | Definição | Descrição |
 | :---------: | :-------: | :--------: |
 | VP | Valor planejado | É o orçamento autorizado designado para o trabalho a ser executado. Será calculado a partir do custo definido na estimativa acima |  
-| VA | Valor agregado | É o orçamento associado ao trabalho autorizado que foi concluído. Será calculado por meio da multiplicação do valor planejado para a atividade pela porcentagem concluída da mesma ao fim do tempo planejado. |
+| VA | Valor agregado | É o orçamento associado ao trabalho autorizado que foi concluído. Será calculado por meio da multiplicação do valor planejado da atividade pela porcentagem concluída da mesma ao fim do tempo planejado. |
 | CR | Custo real | É o quanto foi gasto na execução do trabalho. Será calculado a partir da multiplicação das horas gastas pelos integrantes do projeto pelo preço da hora trabalhada | 
 
 A partir destes três elementos definidos, é possível utilizá-los para calcular os indicadores que auxiliarão na definição da situação do projeto. Realizando assim o cálculo da variação de prazos (VPR), variação de custos (VC), índice de desempenho de prazos (IDP) e do índice de desempenho de custos (IDC).
@@ -90,7 +93,7 @@ Uma medida de eficiência de custos dos recursos orçados expressa como a relaç
 | IDC = 1 | Custo conforme o planejado |
 | IDC < 1 | Custo acima do planejado |
 
-## 4. Análise tempo x Orçamento
+## 4. Análise Tempo x Orçamento
 
 Com a aquisição dos índices de **desempenho de custos** e de **desempenho de prazos** é possível fazer a relação deles, viabilizando avaliar o projeto perante estas informações.
 
@@ -100,10 +103,12 @@ Com a aquisição dos índices de **desempenho de custos** e de **desempenho de 
 | Dentro do orçamento | Ruim  | Bom | Bom |
 | Acima do orçamento | Ruim  | Ruim  | São necessários mais dados  |
 
-Com isso, podemos dizer que o projeto atualmente(19/10/2020) se encontra em estado **bom**.
+Com isso, podemos dizer que o projeto atualmente(08/10/2020) se encontra em estado **ruim**.
 
+## 5. Gráfico de Custos
+![Custo](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/Analise_custo_release1.png)
 
-## 5. Referências
+## 6. Referências
 
 * PMI. Um guia do conhecimento em gerenciamento de Projetos (Guia PMBOK), Project Management Institute, 5ª Edição, Pennsylvania, Estados Unidos da América, 2013.
 * [Plano de Gerenciamento de Custos, equipe Aix](https://fga-eps-mds.github.io/2019.1-Aix/gerencia/2019/04/05/plano-de-gerenciamento-de-custos/)

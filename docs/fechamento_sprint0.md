@@ -17,7 +17,7 @@ sidebar_label: Fechamento Sprint 0
 
 ### Burndown
 
-![Burndown Sprint 0](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint0.png)
+![Burndown Sprint 0](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/burndown_sprint0.png)
 
 ### Velocity
 

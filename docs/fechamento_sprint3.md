@@ -17,7 +17,7 @@ sidebar_label: Fechamento Sprint 3
 
 ### Burndown
 
-![Burndown Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/burndown_sprint3.png)
+![Burndown Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/burndown_sprint3.png)
 
 ### Velocity
 
@@ -73,4 +73,4 @@ Os protótipos estão ajudando bastante a entender o produto, mas alguns fluxos 
 
 ## Quadro de conhecimento
 
-![Quadro de Conhecimento Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/quadro_de_conhecimento_sprint3.png)
+![Quadro de Conhecimento Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/quadro_de_conhecimento_sprint3.png)
