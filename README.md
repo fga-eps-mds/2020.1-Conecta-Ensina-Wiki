@@ -24,3 +24,6 @@ Para a execução do projeto foram utilizados mais 2 repositórios:
 | Matheus Gomes Nascimento | [matgomes21](github.com/matgomes21) | mateusgomes.nascimento21@gmail.com |
 | Paulo Victor de Menezes Lopes | [Poulvilho](github.com/Poulvilho) | pv.paulovictor.vp@gmail.com |
 | Rhuan Marques Róbias dos Santos | [RhuanMr](github.com/RhuanMr) | magicknight@hotmail.com.br |
+
+## Release 1
+### [Vídeo Release 1](https://drive.google.com/drive/folders/13litgLOVzPMFFw6r5cXfOWPnv-Qev-P6)
