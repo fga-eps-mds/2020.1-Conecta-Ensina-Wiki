@@ -4,7 +4,7 @@ title: Modelagem do banco de dados
 sidebar_label: Modelagem do banco de dados
 ---
 
-## Histórico de Versões
+## Histórico de versões
 
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
@@ -18,7 +18,7 @@ sidebar_label: Modelagem do banco de dados
 
 Este artefato possui como finalidade a documentação da modelagem do banco de dados, que consiste na criação do modelo relacional no software brModelo, versão 3.2, do projeto Conecta-Ensina, desenvolvido nas disciplinas de Métodos de Desenvolvimento de Software e Engenharia de Produto de Software no primeiro semestre do ano de 2020, que possui como cliente a empresa Conecta-Ensina, representado na equipe pelas figuras do Fábio e da Carol.
 
-## Modelagem do Banco de dados
+## Modelagem do banco de dados
 
 ### Modelo Entidade-Relacionamento (MER)
 

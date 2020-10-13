@@ -21,13 +21,13 @@ Este artefato possui como finalidade a documentação do protótipo de baixa fid
 
 ## Versão 0.2
 
-### Fluxo do Aluno
+### Fluxo do aluno
 
 Protótipo do fluxo do usuário cadastrado como aluno. 
 
 ![Fluxo do aluno V0.2](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/prototypes/prototipo_de_baixa_fidelidade_aluno_v02.svg)
 
-### Fluxo do Professor
+### Fluxo do professor
 
 Protótipo do fluxo do usuário cadastrado como professor. 
 
@@ -35,13 +35,13 @@ Protótipo do fluxo do usuário cadastrado como professor.
 
 ## Versão 0.1
 
-### Fluxo do Aluno
+### Fluxo do aluno
 
 Protótipo do fluxo do usuário cadastrado como aluno, elaborado junto ao cliente. 
 
 ![Fluxo do aluno](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/prototypes/prototipo_de_baixa_fidelidade_aluno_v01.svg)
 
-### Fluxo do Professor
+### Fluxo do professor
 
 Protótipo do fluxo do usuário cadastrado como professor, elaborado junto ao cliente. 
 

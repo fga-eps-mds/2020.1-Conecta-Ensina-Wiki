@@ -4,7 +4,7 @@ title: Especificação dos casos de uso
 sidebar_label: Especificação dos casos de uso
 ---
 
-## Histórico de Versões
+## Histórico de versões
 
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
@@ -19,7 +19,7 @@ sidebar_label: Especificação dos casos de uso
 Este artefato possui como finalidade a documentação das especificações de caso de uso - user cases - relacionados ao projeto Conecta-Ensina, desenvolvido nas disciplinas de Métodos de Desenvolvimento de Software e Engenharia de Produto de Software no primeiro semestre do ano de 2020, que possui como cliente a empresa Conecta-Ensina, representado na equipe pela figura do Fábio e da Carol.
 
 
-## Diagrama de Casos de Uso
+## Diagrama de casos de uso
 
 ![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
 

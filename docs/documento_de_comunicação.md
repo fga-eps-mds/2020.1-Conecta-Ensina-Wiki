@@ -10,6 +10,7 @@ sidebar_label: Documento de comunicação
 |--------|-----------|---------------|---------|
 | 28/08/2020 | 0.1 | Criação do documento | Júlio Schneider, Edvan Gomes | 
 | 13/08/2020 | 0.2 | Inserção de ícones | Júlio Schneider, Edvan Gomes | 
+|02/10/2020 | 0.3 | Correção de tabelas | Edvan Gomes, João Pedro, Paulo Víctor |
 
 ## Objetivo
 
@@ -27,25 +28,28 @@ Este documento visa  ilustrar os meios de comunicação, interna e externa, da e
 | <img src="https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/icons/whatsapp.svg" alt="wppIcon" width="50" height="30" /> | Software de comunicação focado em troca de mensagens |
 
 ## Estratégia de comunicação
-### Comunicação Interna
+### Comunicação interna
         
-A comunicação interna da equipe se dá principalmente por meio da plataforma Discord, nas daily's, reuniões de sprint e atividades de pareamentos, e por meio da plataforma Telegram, onde são feitas comunicações menores de fácil resolução por meio de mensagens instantâneas, além de marcação das de reuniões.
-| Atividade | Horário |
-| ------ | ------ |
-| Dailys | Terça e Quinta as 20h. |
-| Fim de Sprint | Sábado as 14h. |
-| Pareamento | Decidido pelo par. |
+A comunicação interna da equipe se dá pricipalmente atráves do Discord e do Telegram. As dailies, retrospectivas de sprints, reuniões com cliente e atividades de pareamentos são feitas usando o Discord, enquanto o Telegram é usado para trocas de mensagens instantâneas e também para o agendamento de outras atividades.
 
-### Comunicação Externa
+| Atividades | Horários | Duração |
+| ------ | ------ | :-----: |
+| Dailies | Terças-feiras às 20h; <br> Quintas-feiras às 15h50m. | 10 minutos. |
+| Pareamento coletivo | Sextas-feiras à partir das 10h. | - |
+| Retrospectiva de print | Sábados às 14h. | 2 horas. |
+| Reuniões com o cliente | Ocasionalmente após as dailies de terça-feira. | - |
+| Pareamento | Horário sugerido: todos os dias úteis às 20h. | 2 horas. |
+
+### Comunicação externa
 #### Professor
 
-A comunicação com o professor da disciplina é feita por meio do Slack, onde são discutidos assuntos e questões simples sobre a matéria no geral, e também por meio do Jitsi, onde eram realizadas as aulas, e também reuniões esporádicas.
+A comunicação com o professor da disciplina é feita por meio de duas ferramentas. A primeira é o Slack, onde são discutidos assuntos e questões simples sobre a disciplina. A segunda ferramenta é o Jitsi, onde são realizadas as aulas síncronas e também reuniões esporádicas.
   
-| Aulas | Terça | Quinta  |
-| ------ | ------ | ------ |
-| MDS | 16-18 | 16-18 |
-| EPS | 14-16 | 14-16 |
+| Disciplinas | Horários |
+| ------ | ------ |
+| Métodos de Desenvolvimento de Software | Terças-feiras às 16h; <br> Quintas-feiras às 16h.
+| Engenharia de Produto de Software | Terças-feiras às 14h; <br> Quintas-feiras às 14h. |
 
 #### Cliente
 
-  As reuniões com o cliente são feitas por meio do Discord,  não havia necessariamente uma periodicidade das reuniões, também há comunicação de detalhes por meio do Whatsapp.
+  A comunicação com o cliente é feita pricipalmente por meio do WhatsApp. Além disso, quando necessário, reuniões são realizadas através do Discord para uma comunicação mais detalhada a respeito do projeto.

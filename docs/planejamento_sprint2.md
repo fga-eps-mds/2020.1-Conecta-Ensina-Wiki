@@ -11,12 +11,12 @@ Scrum master: Paulo Lopes <br>
 Product Owner: João Pedro <br>
 Devops: Igor Veludo <br>
 
-## Sprint Backlog
+## Sprint backlog
 
 | Tarefa | Pontos |
 |--------|--------|
 | Documento de visão | 3 |
-| Backlog do Produto | 3 |
+| Backlog do produto | 3 |
 | Protótipo de baixa fidelidade | 1 |
 | Configuração do Docker| 5 |
 | Especificação dos casos de uso | 3 |

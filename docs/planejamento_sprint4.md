@@ -16,9 +16,9 @@ Devops: Igor Veludo <br>
 | Tarefa | Pontos |
 |--------|--------|
 | CRUD usuário (back e front) | 5 |
-| Plano de Custos | 3 |
+| Plano de custos | 3 |
 | Fluxo de agendar aula | 5 |
-| Criação do Layout | 3 |
+| Criação do layout | 3 |
 
 Total de pontos: 16
 
@@ -29,4 +29,4 @@ Total de pontos: 16
 | Denniel, Igor e Mateus | Fluxo de agendar aula | 5 |
 | Eddie e Paulo | CRUD usuário | 5 |
 | João Pedro e João Vitor | Plano de custos | 3 |
-| Júlio e Rhuan | Criação do Layout | 3 |
+| Júlio e Rhuan | Criação do layout | 3 |

@@ -4,7 +4,7 @@ title: Plano de gerenciamento de riscos
 sidebar_label: Plano de gerenciamento de riscos
 ---
 
-## Histórico de Versões
+## Histórico de versões
 
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
@@ -106,7 +106,7 @@ A prioridade é o que determina a urgência que medidas devem ser tomadas para r
 | **Alto** | 4 | 8 | 12 | 16 | 20 |
 | **Muito alto** | 5 | 10 | 15 | 20 | 25 |
 
-#### Nível de Prioridade
+#### Nível de prioridade
 
 | Prioridade | Intervalo |
 | :--------: | :-------: |

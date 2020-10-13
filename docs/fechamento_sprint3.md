@@ -4,9 +4,9 @@ title: Fechamento Sprint 3
 sidebar_label: Fechamento Sprint 3
 ---
 
-## Indicadores de Qualidade do Processo
+## Indicadores de qualidade do processo
 
-### Fechamento da Sprint
+### Fechamento da sprint
 
 | Histórias Planejadas | Status |
 |----------------------|--------|
@@ -71,6 +71,6 @@ Todos os membros nítidamente estão mais engajados e mais animados com o projet
 
 Os protótipos estão ajudando bastante a entender o produto, mas alguns fluxos ainda não estão muito bem definidos. Com o início do desenvolvimento podemos chegar a mais dúvidas e concretizar melohor o produto.
 
-## Quadro de Conhecimento
+## Quadro de conhecimento
 
 ![Quadro de Conhecimento Sprint 3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/quadro_de_conhecimento_sprint3.png)
