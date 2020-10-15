@@ -28,6 +28,8 @@ Ex:
 
 - [ ] Criar campo do Login
 - [ ] Salvar dados do Usuário
+- [ ] Testar
+- [ ] Cartão do ZenHub atualizado
 
 ## Outros Tópicos:
 
