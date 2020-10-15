@@ -72,4 +72,4 @@ Velocity: 9 <br>
 
 ## Quadro de Conhecimento
 
-![Quadro de Conhecimento Sprint 6](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/quadro_de_conhecimento_sprint5.png)
+![Quadro de Conhecimento Sprint 6](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/quadro_de_conhecimento_sprint6.png)

@@ -16,9 +16,8 @@ Devops: Igor Veludo <br>
 | Tarefa | Pontos |
 |--------|--------|
 | Apresentação da primeira Release | 5 |
-| Resolução de dívidas técnicas | 1 |
 
-Total de pontos: 6
+Total de pontos: 5
 
 ## Pareamentos
 
