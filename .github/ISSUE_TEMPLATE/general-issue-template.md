@@ -30,6 +30,7 @@ Ex:
 - [ ] Salvar dados do Usuário
 - [ ] Testar
 - [ ] Cartão do ZenHub atualizado
+- [ ] Registrar horas gastas no drive
 
 ## Outros Tópicos:
 
