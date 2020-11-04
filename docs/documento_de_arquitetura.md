@@ -66,10 +66,6 @@ Para a integração dos Fronts com a API, será necessário a comunicação por 
 
 ![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaRelacoes.svg)
 
-### Deployment
-
-[Plano de Gerenciamento de Configuração de Software](gerenciamentoConfiguracaoSoftware)
-
 ### Banco de dados
 
 Para a persistência de dados, será utilizado o sistema gerenciador de banco de dados PostgreSQL.

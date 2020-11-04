@@ -13,6 +13,7 @@ sidebar_label: Modelagem do banco de dados
 | 01/10/2020 | 0.3 | Criação do modelo conceitual | Paulo Victor |
 | 02/10/2020 | 0.4 | Atualização do modelo conceitual | Paulo Victor e João Pedro |
 | 06/10/2020 | 0.5 | Atualização do modelo conceitual e adição da imagem | Paulo Victor e João Pedro |
+| 07/11/2020 | 0.6 | Atualização dos modelos conceituais | Paulo Victor e João Pedro |
 
 ## Introdução
 
@@ -25,37 +26,33 @@ Este artefato possui como finalidade a documentação da modelagem do banco de d
 #### Entidades
 
 - USER (<u>ID</u>, firstName, lastName, email, password, cellphone, role)
-- STUDENT (<u>*idUser*</u>, birthDate, cpfParent, address(CEP, street, number, complement), institution, serie)
+- STUDENT (<u>*idUser*</u>, birthDate, cpf, address(CEP, street, number, complement), institution, grade, description, special, status)
 - SUBJECT (<u>ID</u>, graduation, name)
-- TEACHER (<u>*idUser*</u>, cpf, address(CEP, street, number, complement), photo, description, video, institution, graduation, graduationArea, degree, *subject []*, bank, agency, account, status)
-- CLASS (<u>ID</u>, *teacher*, *student*, serie, *subject*, dtClass, duration, address(CEP, street, number), status, timer)
+- TEACHER (<u>*idStudent*</u>, photo, video, graduationArea, degree, *subject []*, bank, agency, account)
+- CLASS (<u>ID</u>, *teacher*, *student*, grade, *subject*, dtClass, duration, address(CEP, street, number), status, timer)
 - RATING_TEACHER (<u>*class*</u>, stars, rating)
 - RATING_STUDENT (<u>*class*</u>, rating)
-- REPORT (<u>ID</u>, *teacher*, report)
 - FAQ (<u>ID</u>, question, answer)
 
 #### Cardinalidades
 
-- USER é pode ser um STUDENT, STUDENT é um USER.<br>
+- USER pode ser um STUDENT, STUDENT é um USER.<br>
 USER 0:1 STUDENT
 
-- USER é pode ser um TEACHER, TEACHER é um USER.<br>
-USER 0:1 TEACHER
+- STUDENT pode ser um TEACHER, TEACHER é um STUDENT.<br>
+USER 0:1 STUDENT
+
+- STUDENT pode receber várias CLASSES, CLASS é dada a um STUDENT.<br>
+STUDENT 1:N CLASS
+
+- STUDENT pode reportar vários STUDENTS, STUDENT é reportado por vários STUDENTS.<br>
+STUDENT N:N STUDENT
 
 - TEACHER pode dar várias SUBJECTS, SUBJECT pode ser dada por vários TEACHERS.<br>
 TEACHER N:N SUBJECT
 
 - TEACHER pode dar várias CLASSES, CLASS é dada por um TEACHER.<br>
 TEACHER 1:N CLASS
-
-- TEACHER pode ter vários REPORTS, REPORT pertence a um TEACHER.<br>
-TEACHER 1:N REPORT
-
-- STUDENT pode receber várias CLASSES, CLASS é dada a um STUDENT.<br>
-STUDENT 1:N CLASS
-
-- STUDENT pode fazer vários REPORTS, REPORTé feito por um STUDENT.<br>
-STUDENT 1:N REPORT
 
 - CLASS é de uma SUBJECT, SUBJECT pode ter várias CLASSES.<br>
 CLASS N:1 SUBJECT
@@ -68,6 +65,6 @@ CLASS 0:1 RATINGSTUDENT
 
 ### Diagrama Entidade-Relacionamento (DER)
 
-![Modelagem do Banco de Dados v0.3](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/database/modelagem_banco_de_dados_v03.png)
+![Modelagem do Banco de Dados v0.4](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/database/modelagem_banco_de_dados_v04.png)
 
 [Para ver versões antigas, clique aqui](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/tree/master/website/static/img/database)
