@@ -28,7 +28,7 @@ Este artefato possui como finalidade a documentação da modelagem do banco de d
 - USER (<u>ID</u>, firstName, lastName, email, password, cellphone, role)
 - STUDENT (<u>*idUser*</u>, birthDate, cpf, address(CEP, street, number, complement), institution, grade, description, special, status)
 - SUBJECT (<u>ID</u>, graduation, name)
-- TEACHER (<u>*idStudent*</u>, photo, video, graduationArea, degree, *subject []*, bank, agency, account)
+- TEACHER (<u>*idStudent*</u>, photo, video, graduationArea, degree, bank, agency, account)
 - CLASS (<u>ID</u>, *teacher*, *student*, grade, *subject*, dtClass, duration, address(CEP, street, number), status, timer)
 - RATING_TEACHER (<u>*class*</u>, stars, rating)
 - RATING_STUDENT (<u>*class*</u>, rating)
