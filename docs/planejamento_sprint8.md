@@ -13,7 +13,7 @@ Devops: Igor Veludo <br>
 
 ## Sprint Backlog
 
-Como a tarefa de "Elevar cobertura de testes" se tornou dívida técnica por duas sprints seguidas. Optou-se por aumentar a pontuação e trazê-la para o planejamento desta sprint com a label de dívida técnica.
+Como a tarefa de "Elevar cobertura de testes" se tornou dívida técnica por duas sprints seguidas, optou-se por aumentar a pontuação e trazê-la para o planejamento desta sprint com a label de dívida técnica.
 
 | Tarefa | Pontos |
 |--------|--------|
