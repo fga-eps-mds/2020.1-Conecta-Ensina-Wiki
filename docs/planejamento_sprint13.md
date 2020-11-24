@@ -1,7 +1,7 @@
 ---
-id: planejamentoSprint12
-title: Planejamento Sprint 12
-sidebar_label: Planejamento Sprint 12
+id: planejamentoSprint13
+title: Planejamento Sprint 13
+sidebar_label: Planejamento Sprint 13
 ---
 
 ## Resumo

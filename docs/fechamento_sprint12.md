@@ -28,7 +28,7 @@ sidebar_label: Fechamento Sprint 12
 | 2 | 15 |
 | 3 | 12 |
 | 4 | 6 |
-| 5 | 12 |
+| 5 | 20 |
 | 6 | 3 |
 | 7 | 5 |
 | 8 | 6 |
@@ -37,7 +37,7 @@ sidebar_label: Fechamento Sprint 12
 | 11 | 7 |
 | 12 | 3 |
 
-Total de Pontos: 111 <br>
+Total de Pontos: 116 <br>
 Sprints: 13 <br>
 Velocity: 9 <br>
 
