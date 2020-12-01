@@ -15,6 +15,13 @@ sidebar_label: Fechamento Sprint 13
 | Avaliação de aluno | Concluído |
 | Denúncia | Concluído |
 
+
+| Dívidas Técnicas | Status |
+|---|---|
+| Iniciar/Finalizar aula | Concluído |
+| Configurar as matérias no professor | Não concluído |
+| Estudar notificações | Não concluído |
+
 ### Burndown
 
 ![Burndown Sprint 13](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/sprints/burndown_sprint13.png)
@@ -36,11 +43,11 @@ sidebar_label: Fechamento Sprint 13
 | 10 | 17 |
 | 11 | 7 |
 | 12 | 3 |
-| 13 | 6 |
+| 13 | 9 |
 
-Total de Pontos: 122 <br>
-Sprints: 13 <br>
-Velocity: 9 <br>
+Total de Pontos: 125 <br>
+Sprints: 14 <br>
+Velocity: 8 <br>
 
 ### Retrospectiva
 
