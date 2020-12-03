@@ -38,8 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'planejamentoSprint0', label: 'Docs'},
-    // {doc: 'fechamento_sprint0', label:'Docs'}
+    {doc: 'documentoDeVisao', label: 'Docs'}
   ],
 
   // If you have users set above, you add it here:
@@ -92,7 +91,7 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -103,6 +102,9 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   // repoUrl: 'https://github.com/facebook/test-site',
+  wikiRepoUrl: 'https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki',
+  backendRepoUrl: 'https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend',
+  mobileRepoUrl: 'https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Mobile',
 };
 
 module.exports = siteConfig;

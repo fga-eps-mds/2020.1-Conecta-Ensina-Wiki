@@ -9,7 +9,6 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
@@ -64,13 +63,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend">Backend</Button>
-            <Button href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Mobile">App Mobile</Button>
-          </PromoSection>
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('documentoDeVisao')}>Documentação do projeto</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -96,73 +89,83 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
-        ]}
-      </Block>
-    );
-
     const Features = () => (
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'Conheça nosso reposiório da <a href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend">API</a>',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'API - Back-End',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Conheça nosso reposiório do <a href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend">APP Mobile</a>',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'APP Mobile',
+          },
+        ]}
+      </Block>
+    );
+
+    const ConectaWebsite = () => (
+      <div
+        className="productShowcaseSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <h2>Site da empresa</h2>
+        <p>
+          Aqui o
+           <a href="https://www.conectaensina.com.br"> site oficial </a>
+          da empresa, não trabalhado por nós no escopo da disciplina
+        </p>
+      </div>
+    );
+
+    const AboutConecta = () => (
+      <Block id="aboutConecta" background="light">
+        {[
+          {
+            content:
+              'A Conecta-Ensina é uma empresa que oferece aulas particulares em domicílio. ' +
+              'Ela atende desde o ensino fundamental ao ensino médio. Seu intuito é levar, ' +
+              'para dentro das residências dos seus clientes, um ensino de qualidade e acessível.',
+            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            imageAlign: 'right',
+            title: 'Sobre a Conecta-Ensina',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutProject = () => (
+      <Block id="aboutProject">
+        {[
+          {
+            content:
+              'Este projeto visa automatizar o agendamento das aulas feitas atualmente apenas ' +
+              'pelo website da empresa. Como pedido pelo cliente, desenvolvemos um aplicativo ' +
+              'mobile, e uma API, para facilitar o cadastro, agendamentos, pagamentos etc dos ' +
+              'interessados na plataforma, além da expansão no mercado.',
+            image: `${baseUrl}img/undraw_code_review.svg`,
+            imageAlign: 'left',
+            title: 'Sobre o projeto',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutUs = () => (
+      <Block id="aboutUs" background="dark">
+        {[
+          {
+            content:
+              'A equipe foi formada nos âmbitos de duas disciplinas, contendo 3 membors de EPS ' +
+              'e 6 membros de MDS, com a participação também do professor avaliador. Além disso' +
+              ', contávamos com a participação de dois membros da Conecta-Ensina representando ' +
+              'os interesses da empresa.',
+            image: `${baseUrl}img/undraw_note_list.svg`,
+            imageAlign: 'right',
+            title: 'Sobre os desenvolvedores',
           },
         ]}
       </Block>
@@ -186,12 +189,12 @@ class Index extends React.Component {
 
       return (
         <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
+          <h2>Quem está usando este projeto?</h2>
+          <p>Este projeto é usado pelas seguintes pessoas ou empresas</p>
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
+              Mais usuários da {siteConfig.title}
             </a>
           </div>
         </div>
@@ -203,11 +206,10 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <ConectaWebsite />
+          <AboutConecta />
+          <AboutProject />
+          <AboutUs />
         </div>
       </div>
     );
