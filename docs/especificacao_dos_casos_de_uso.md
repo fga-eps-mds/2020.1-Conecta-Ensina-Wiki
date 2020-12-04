@@ -196,6 +196,7 @@ Este artefato possui como finalidade a documentação das especificações de ca
 2. Ator seleciona no card com o nome foto e estrelas do professor
 3. Ator lê os dados referidos do professor
 
+
 ### UC10 Vizualizar Professor
 
 **Ator(es):** Professor

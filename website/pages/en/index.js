@@ -94,13 +94,13 @@ class Index extends React.Component {
         {[
           {
             content: 'Conheça nosso reposiório da <a href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend">API</a>',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
             title: 'API - Back-End',
           },
           {
-            content: 'Conheça nosso reposiório do <a href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend">APP Mobile</a>',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Conheça nosso reposiório do <a href="https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Mobile">APP Mobile</a>',
+            image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
             title: 'APP Mobile',
           },
