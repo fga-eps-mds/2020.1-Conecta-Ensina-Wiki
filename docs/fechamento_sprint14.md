@@ -18,7 +18,7 @@ sidebar_label: Fechamento Sprint 14
 
 | Dívidas Técnicas | Status |
 |---|---|
-| Configurar as matérias no professor | Concluído |
+| Configurar as matérias no professor | Não concluído |
 | Deploy no backend | Concluído |
 | Avaliação de professor | Concluído |
 
@@ -44,9 +44,9 @@ sidebar_label: Fechamento Sprint 14
 | 11 | 7 |
 | 12 | 3 |
 | 13 | 9 |
-| 14 | 16 |
+| 14 | 13 |
 
-Total de Pontos: 141 <br>
+Total de Pontos: 138 <br>
 Sprints: 15 <br>
 Velocity: 9 <br>
 
