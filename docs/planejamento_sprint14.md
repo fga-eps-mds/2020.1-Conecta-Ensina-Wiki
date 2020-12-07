@@ -13,6 +13,8 @@ Devops: Igor Veludo <br>
 
 ## Sprint Backlog
 
+Com as dificuldade encontradas com as notificações, a proximidade com a entrega final, optamos por reduzir o escopo retirando as tarefas desta natureza, assim como toda função da aula urgente, que demanda deste módulo.
+
 | Tarefa | Pontos |
 |--------|--------|
 | Estudo API Maps | 1 |

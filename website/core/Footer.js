@@ -30,44 +30,46 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html')}>
-              Getting Started (or other categories)
+            <h5>Documentos</h5>
+            <a href={this.docUrl('roadmapDoProduto')}>
+              Documentação do Projeto
             </a>
-            <a href={this.docUrl('doc2.html')}>Guides (or other categories)</a>
-            <a href={this.docUrl('doc3.html')}>
-              API Reference (or other categories)
+            <a href={this.docUrl('documentoDeVisao')}>
+              Documentação do Produto
             </a>
-          </div>
-          <div>
-            <h5>Community</h5>
-            <a href={`${this.props.config.baseUrl}users`}>User Showcase</a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
+            <a href={this.docUrl('planejamentoSprint0')}>
+              Documentação das Sprints
             </a>
           </div>
           <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <h5>Comunidade</h5>
+            <a
+              href={`${this.props.config.wikiRepoUrl}/issues`}
+              target="_blank"
+              rel="noreferrer noopener">
+              Issues do projeto
+            </a>
+            <a href={this.docUrl('sobreNos')}>Sobre Nós</a>
+          </div>
+          <div>
+            <h5>Mais</h5>
+            <a href={this.props.config.wikiRepoUrl}>
+              Repositório da nossa Wiki
+            </a>
+            <a href={this.props.config.backendRepoUrl}>
+              Repositório da nossa API
+            </a>
+            <a href={this.props.config.mobileRepoUrl}>
+              Repositório do nosso APP Mobile
+            </a>
             <a
               className="github-button"
-              href={this.props.config.repoUrl}
+              href={this.props.config.wikiRepoUrl}
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
+              aria-label="Favorite este projeto no GitHub">
               Star
             </a>
             {this.props.config.twitterUsername && (
