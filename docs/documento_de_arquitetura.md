@@ -13,6 +13,7 @@ sidebar_label: Documento de arquitetura
 | 09/09/2020 | 0.3 | Preenchimento | Denniel e Paulo |
 | 10/09/2020 | 0.4 | Finalização dos demais diagramas | Denniel |
 | 11/09/2020 | 0.5 | Arrumando links | Paulo |
+| 04/12/2020 | 0.6 | Modificação do escopo, representação arquitetural e metas | João Vitor |
 
 
 ## Introdução
@@ -24,7 +25,7 @@ Este documento fornece uma visão geral da arquitetura abrangente do Conecta-Ens
 
 ### Escopo
 
-Este documento de arquitetura de _software_ fornece uma visão geral da arquitetura do aplicativo Conecta Ensina.
+O Conecta Ensina  é um projeto de aulas particulares dadas por professores formados ou alunos de graduação. O usuário terá a possibilidade de agendar aulas de acordo com a disciplina  e horário desejado.
 
 
 ### Abreviações, acrônimos e definições
@@ -46,31 +47,40 @@ Este documento de arquitetura de _software_ fornece uma visão geral da arquitet
 
 ### Implementação
 
-Para facilitar a integração do sistema em multiplataformas, foi utilizado a arquitetura de MVC, onde a model e controller estão separados no Back-End, possibilitando assim que se possa desenvolver quantos Fronts forem necessários integrados por um mesmo banco de dados.
+O modelo de arquitetura proposta no projeto é um modelo multicamada, possuindo três principais camadas, sendo elas: 
+* **Visão:** camada em que os dados são visualizados a partir de uma interface gráfica implementada.
+* **Controladoras:** camada em que há o  tratamento e interpretação dos eventos gerados por dispositivos de entrada. Para manipular e tratar esses dados de entrada é utilizado o ExpressJS.
+* **Modelo:** camada em que há persistência dos dados, sendo composto pelo banco de dados relacional PostgreSQL.
+ 
+A comunicação entre as camadas é feita pelo modelo de arquitetura cliente-servidor, sendo o servidor representado pela camada intermediária (Controladoras), tendo a responsabilidade de lidar com a camada de persistência (Modelo), que fornece os dados para manipulação e com a camada de visualização (Visão), que apresenta pela interface gráfica os dados manipulados, no qual são requisitados por meio do protocolo de comunicação http com as outras camadas. O cliente nesse modelo realiza as requisições e interage com a interface gráfica. 
+
+![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/arquitetura.png)
+
+* **Node.js:** Pode ser definido com um ambiente de execução Javascript server-side, sendo possível rodar uma aplicação standalone em uma máquina, não dependendo de um browser parar a execução.
+
+* **React Native:** Biblioteca Javascript criada pelo Facebook, que é utilizada para o desenvolvimento da interface gráfica para os sistemas de Android e iOS de forma nativa. Por conta do desenvolvimento ocorrer de forma nativa, o desempenho do software se torna superior às demais tecnologias concorrentes.
+
+* **Express JS:** Framework para Node.js, utilizado no back-end para o gerenciamento de rotas, middleware e de outras funções, facilitando a criação de API 's. Sendo responsável por realizar a conexão entre as camadas de persistência e de controle com a camada de visão.
+
+* **Jest:** Framework de testes criado pelo Facebook projetado para garantir a correção de código Javascript.
+
+* **ESLint:** Ferramenta de análise de código estática para identificar padrões problemáticos encontrados em código Javascript, auxiliando no processo de refatoração do código.
+
+* **Sequelize:** Definido como um ORM(Object-Relational Mapper) para Node.js, o sequelize tem suporte para PostgreSQL, realizando o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript.
+
+* **PostgreSQL:** O banco de dados escolhido para o projeto, pois possui excelente integração com a Node.js. Isso permite a utilização de UUID para colunas ID do tipo primary key, além oferecer uma gama de tipos de dados, auxiliando no desenvolvimento de um bom projeto de banco de dados.
+
 
 #### Back-End
-
-O Back-End é desenvolvido em NodeJS com o banco relacional PostgreSQL.
+Estrutura de pacotes do back-end.
 
 ![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/back_end.png)
 
 #### Front-End
-
-Para o desenvolvimento do App Mobile, foi utilizado o React Native para a importação ao sistema iOS e Android, além da fácil integração com a API em NodeJS
+Estrutura de pacotes do front-end.
 
 ![Arquitetura do Front-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/front_end.png)
 
-### Integração
-
-Para a integração dos Fronts com a API, será necessário a comunicação por Json utilizado pelo HTTP.
-
-![Diagrama de Relações](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaRelacoes.svg)
-
-### Banco de dados
-
-Para a persistência de dados, será utilizado o sistema gerenciador de banco de dados PostgreSQL.
-
-O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utilização de UUID para colunas ID do tipo primary key, além oferecer uma gama de tipos de dados, auxiliando no desenvolvimento de um bom projeto de banco de dados.
 
 #### [Modelagem do Banco de Dados](modelagemDoBancoDeDados)
 
@@ -78,15 +88,17 @@ O PostgreSQL possui excelente integração com o NodeJS. Isso permite a utiliza�
 
 ### Metas
 
-* Acoplamento: Foi separado as views da API de forma a atender qualquer exigência do cliente a novas tecnologias integradas em um mesmo banco de dados. Dessa forma, podemos focar em fazer uma API concreta para utilização em diversas plataformas, assim como diversas aplicações que integradas.
+Criação de um aplicativo para aparelhos móveis com a finalidade de permitir o usuário contratar aulas particulares de acordo com o horário e disciplina desejadas. 
 
-* Evolução: A necessidade do desenvolvimento de novas funcionalidades poderá ser feita de forma independente na API e na interface de usuário, inclusive, adotando outras tecnologias, desde que a integração entre as duas frentes seja mantida.
+* **Acoplamento:** Foi separado as views da API de forma a atender qualquer exigência do cliente a novas tecnologias integradas em um mesmo banco de dados. Dessa forma, podemos focar em fazer uma API concreta para utilização em diversas plataformas, assim como diversas aplicações que integradas.
+
+* **Evolução:** A necessidade do desenvolvimento de novas funcionalidades poderá ser feita de forma independente na API e na interface de usuário, inclusive, adotando outras tecnologias, desde que a integração entre as duas frentes seja mantida.
 
 ### Restrições
 
-* Expertise - A equipe não possui muito experiência de desenvolvimento nas tecnologias escolhidas. Entretanto, sabendo de tal restrição, buscou-se elaborar um Plano de Gerenciamento de Riscos para que o projeto possa ser desenvolvido com êxito.
+* **Expertise:** A equipe não possui muito experiência de desenvolvimento nas tecnologias escolhidas. Entretanto, sabendo de tal restrição, buscou-se elaborar um Plano de Gerenciamento de Riscos para que o projeto possa ser desenvolvido com êxito.
 
-* Tecnologia: Se tratando de tecnologias emergentes, há muitas mudanças de versões que devem ser levadas em consideração na hora de adotar qualquer biblioteca.
+* **Tecnologia:** Se tratando de tecnologias emergentes, há muitas mudanças de versões que devem ser levadas em consideração na hora de adotar qualquer biblioteca.
 
 ## Visualização dos casos de uso
 

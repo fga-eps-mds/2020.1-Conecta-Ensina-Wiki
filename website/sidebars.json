@@ -1,17 +1,20 @@
 {
   "docs": {
     "Documentos do Projeto": [
+      "documentoDeComunicacao",
+      "planoDeGerenciamentoDeRiscos",
+      "planoDeGerenciamentoDeCustos",
+      "roadmapDoProduto",
+      "sobreNos"
+    ],
+    "Documentos do Produto":[
       "backlogDoProduto",
       "documentoArquitetura",
       "documentoDeVisao",
-      "documentoDeComunicacao",
       "especificacaoCasosDeUso",
       "modelagemDoBancoDeDados",
       "prototipoDeBaixaFidelidade",
-      "prototipoDeAltaFidelidade",
-      "planoDeGerenciamentoDeRiscos",
-      "planoDeGerenciamentoDeCustos",
-      "roadmapDoProduto"
+      "prototipoDeAltaFidelidade"
     ],
     "Documentos de Sprint":[
       "planejamentoSprint0", "fechamentoSprint0",

@@ -13,10 +13,11 @@ sidebar_label: Especificação dos casos de uso
 | 05/09/2020 | 0.3 | Correção de links | Paulo Victor |
 | 06/09/2020 | 0.4 | Teste e adaptação com docossauros | Paulo Victor |
 | 06/09/2020 | 0.5 | Inclusão do diagrama de casos de uso | Paulo Victor e João Vitor |
+| 05/12/2020 | 0.6 | Adição de novos casos de uso | João Vitor |
 
 ## Introdução
 
-Este artefato possui como finalidade a documentação das especificações de caso de uso - user cases - relacionados ao projeto Conecta-Ensina, desenvolvido nas disciplinas de Métodos de Desenvolvimento de Software e Engenharia de Produto de Software no primeiro semestre do ano de 2020, que possui como cliente a empresa Conecta-Ensina, representado na equipe pela figura do Fábio e da Carol.
+Este artefato possui como finalidade a documentação das especificações de caso de uso - use cases - relacionados ao projeto Conecta-Ensina, desenvolvido nas disciplinas de Métodos de Desenvolvimento de Software e Engenharia de Produto de Software no primeiro semestre do ano de 2020, que possui como cliente a empresa Conecta-Ensina, representado na equipe pela figura do Fábio e da Carol.
 
 
 ## Diagrama de casos de uso
@@ -76,14 +77,14 @@ Este artefato possui como finalidade a documentação das especificações de ca
 
 **Fluxo normal:**
 1. Entra na aba de “Marcar aula”.
-2. Aluno seleciona os filtro desejados.
+2. Aluno seleciona os filtros desejados.
 3. O sistema apresenta os professores de acordo com a classificação.
 4. Aluno seleciona o professor.
 5. Aluno solicita o pré-agendamento.
 
 **Fluxo alternativo:**
 1. Aluno entra na aba de “Aula urgente”.
-2. Aluno seleciona matéria.
+2. Aluno seleciona a matéria.
 3. Aluno solicita o pré-agendamento.
 
 **Extensões:**<br>
@@ -134,7 +135,7 @@ Este artefato possui como finalidade a documentação das especificações de ca
 
 **Pré-condições:** Atores estarem com a aula aberta.
 
-**Pós condições:** Aula ser finalizada.
+**Pós condições:** A aula foi finalizada.
 
 **Fluxo normal:** 
 1. Atores iniciam o cronômetro da aula.
@@ -156,10 +157,10 @@ Este artefato possui como finalidade a documentação das especificações de ca
 
 **Pré-condição:** Aula ter sido dada.
 
-**Pós-condição:** Avaliação é publicada de forma anônima.
+**Pós-condição:** A avaliação é publicada de forma anônima.
 
 **Fluxo normal:**
-1. Ator seleciona aba de “Aulas Realizadas”.
+1. Ator seleciona a aba de “Aulas Realizadas”.
 2. Seleciona a opção de avaliação.
 3. Ator preenche os campos de avaliação.
 4. Conclui avaliação.
@@ -179,32 +180,63 @@ Este artefato possui como finalidade a documentação das especificações de ca
 **Pós-condição:** Ator visualiza as avaliações acumuladas.
 
 **Fluxo normal:**
-1. Ator seleciona opção “Minhas avaliações”
+1. Ator seleciona a opção “Minhas avaliações”
 2. Ator visualiza a média de estrelas e comentários mais colocados
 
 
-### UC09 Vizualizar Professor
-
-**Ator(es):** Aluno
-
-**Descrição:** Permite ao aluno vizualizar informações sobre o professor que deseja contrartar
-
-**Pré-condição:** Ter participado de alguma aula avaliada.
-
+### UC09 Denunciar perfil
+ 
+**Ator:** Aluno.
+ 
+**Descrição:** Permite ao aluno realizar a denúncia do perfil de um professor.
+ 
+**Pré-condição:**  Acessar a conta com perfil de aluno.
+ 
+**Pós-condição:** Aluno envia denúncia para o administrador avaliar.
+ 
 **Fluxo normal:**
-1. Ator entra na pagina "professores" do fluxo
-2. Ator seleciona no card com o nome foto e estrelas do professor
-3. Ator lê os dados referidos do professor
-
-### UC10 Vizualizar Professor
-
-**Ator(es):** Professor
-
-**Descrição:** Permite ao Professor vizualizar informações sobre o professor que deseja contrartar
-
-**Pré-condição:** Ter participado de alguma aula avaliada.
-
+1. Aluno localiza perfil do professor.
+2. Realiza denúncia.
+ 
+**Extensões:**<br>
+1a. Aluno pode não encontrar perfil do professor.<br>
+2a. Aluno pode cancelar a denúncia antes do envio.<br>
+ 
+ 
+### UC10 Aprovar professor
+ 
+**Ator:** Administrador.
+ 
+**Descrição:** Permite o administrador avaliar as solicitações de cadastro de professores.
+ 
+**Pré-condição:** Algum professor tenha realizado o cadastro.
+ 
+**Pós-condição:** O acesso à conta de professor é liberado ou não.
+ 
 **Fluxo normal:**
-1. Ator entra na pagina "Alunos" do fluxo
-2. Ator seleciona no card com o nome foto e estrelas do 
-3. Ator lê os dados referidos do aluno
+1. Administrador seleciona a aba “Professores Pendentes”.
+2. Seleciona o perfil de algum professor.
+3. Avalia os dados fornecidos.
+4. Aprova ou recusa a solicitação de cadastro.
+ 
+**Extensões:**<br>
+2a. Pode não haver cadastros pendentes.<br>
+ 
+### UC11 Retirar denúncia
+ 
+**Ator:** Administrador.
+ 
+**Descrição:** Permite ao administrador avaliar as denúncias. 
+ 
+**Pré-condição:** Ter denúncias realizadas .
+ 
+**Pós-condição:** O acesso à conta do professor denunciado pode ser bloqueado.
+ 
+**Fluxo normal:**
+1. O administrador seleciona a aba “Denúncias”.
+2. Seleciona a denúncia.
+3. Avalia a descrição informada.
+4. Ratifica ou retira a denúncia.
+ 
+**Extensões:**<br>
+2a. Pode não haver denúncias realizadas.<br>
