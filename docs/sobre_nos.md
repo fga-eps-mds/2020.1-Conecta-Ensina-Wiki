@@ -25,7 +25,9 @@ sidebar_label: Sobre nós
 
 # Representantes da empresa Conecta-Ensina
 
-| Membro | Email |
+| Membro | Função |
 |--------|-------|
-| Fábio | ---- |
-| Carol | ---- |
+| Fabio Enzio Moura Pereira Launé | Gestor administrativo e financeiro |
+| Caroline Iltchenco Zanetti | Coordenadora pedagógica |
+
+Email para contato: conectaensina@gmail.com
