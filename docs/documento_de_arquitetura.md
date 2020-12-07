@@ -13,6 +13,7 @@ sidebar_label: Documento de arquitetura
 | 09/09/2020 | 0.3 | Preenchimento | Denniel e Paulo |
 | 10/09/2020 | 0.4 | Finalização dos demais diagramas | Denniel |
 | 11/09/2020 | 0.5 | Arrumando links | Paulo |
+| 04/12/2020 | 0.6 | Modificação do escopo, representação arquitetural e metas | João Vitor |
 
 
 ## Introdução
