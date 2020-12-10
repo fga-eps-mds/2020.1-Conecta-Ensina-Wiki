@@ -1,6 +1,6 @@
 # Conecta Ensina
 
-![Conecta Ensina Logo](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/conecta_logo.ico)
+![Conecta Ensina Logo](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/conecta-logo.png)
 ## Apresentação
 
 O projeto visa auxiliar a empresa Conecta Ensina com um aplicativo de gerenciamento de aulas particulares. Este repositorio contém a [Documentação](https://fga-eps-mds.github.io/2020.1-Conecta-Ensina-Wiki/) do projeto.

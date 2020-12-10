@@ -14,6 +14,7 @@ sidebar_label: Especificação dos casos de uso
 | 06/09/2020 | 0.4 | Teste e adaptação com docossauros | Paulo Victor |
 | 06/09/2020 | 0.5 | Inclusão do diagrama de casos de uso | Paulo Victor e João Vitor |
 | 05/12/2020 | 0.6 | Adição de novos casos de uso | João Vitor |
+| 09/12/2020 | 0.7 | Adição de novo caso de uso | João Vitor |
 
 ## Introdução
 
@@ -22,7 +23,7 @@ Este artefato possui como finalidade a documentação das especificações de ca
 
 ## Diagrama de casos de uso
 
-![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
+![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasosDeUso.png)
 
 
 ### UC01 Manter aluno
@@ -183,8 +184,22 @@ Este artefato possui como finalidade a documentação das especificações de ca
 1. Ator seleciona a opção “Minhas avaliações”
 2. Ator visualiza a média de estrelas e comentários mais colocados
 
+### UC09 Visualizar Perfil
 
-### UC09 Denunciar perfil
+**Ator:** Aluno.
+
+**Descrição:** Permite ao aluno visualizar informações sobre o professor que deseja contratar.
+
+**Pré-condição:**  Aluno precisar ter participado de alguma aula avaliada.
+ 
+**Pós-condição:** Aluno visualiza as informações sobre o professor.
+
+**Fluxo normal:**
+1. Aluno entra na pagina "Professores".
+2. Seleciona o professor desejado.
+3. Os dados referidos ao professor são apresentados.
+
+### UC10 Denunciar perfil
  
 **Ator:** Aluno.
  
@@ -203,7 +218,7 @@ Este artefato possui como finalidade a documentação das especificações de ca
 2a. Aluno pode cancelar a denúncia antes do envio.<br>
  
  
-### UC10 Aprovar professor
+### UC11 Aprovar professor
  
 **Ator:** Administrador.
  
@@ -222,7 +237,7 @@ Este artefato possui como finalidade a documentação das especificações de ca
 **Extensões:**<br>
 2a. Pode não haver cadastros pendentes.<br>
  
-### UC11 Retirar denúncia
+### UC12 Retirar denúncia
  
 **Ator:** Administrador.
  
