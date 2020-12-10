@@ -9,7 +9,7 @@ sidebar_label: EAP
 | Data | Versão | Descrição | Autor |
 |--------|-----------|---------------|---------|
 | 09/12/2020 | 0.1 | Elaboração da EAP | João Pedro Mota |
-| 10/03/2020 | 0.2 | Criação do documento | Paulo Lopes |
+| 10/12/2020 | 0.2 | Criação do documento | Paulo Lopes |
 
 ## Introdução
 
