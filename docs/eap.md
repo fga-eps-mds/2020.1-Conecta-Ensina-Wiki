@@ -19,5 +19,5 @@ De acordo com PMBOK 6° edição, a Estrutura Analítica de Projeto (EAP) é o p
 
 ## Referência Bibliográfico
 
-1- [EAP da GaiaDex](https://fga-eps-mds.github.io/2020.1-GaiaDex-wiki/eap/eap/)
+1- [EAP da GaiaDex](https://fga-eps-mds.github.io/2020.1-GaiaDex-wiki/eap/eap/)<br>
 2- [EAP da StaySafe](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/images/eap/EAP.png)
