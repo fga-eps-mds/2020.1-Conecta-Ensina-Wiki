@@ -46,7 +46,7 @@ Este artefato possui como finalidade a documentação da modelagem do banco de d
 - MESSAGE (<u>id</u>, text, classroom_id, student_id, teacher_id, create_by)
 
 
-#### Relacionamento
+#### Relacionamentos
 - USER **– remove –** COMPLAIN<br>
 O USER que for administrador remover várias COMPLAIN, e uma COMPLAIN só pode ser removida por um USER que for administrador.<br>
 Cardinalidade 1:n<br>
