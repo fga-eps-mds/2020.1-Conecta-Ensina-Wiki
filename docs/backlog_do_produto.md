@@ -13,6 +13,7 @@ sidebar_label: Backlog do produto
 | 06/09/2020 | 0.3 | Adição da introdução | Mateus |
 | 04/11/2020 | 0.4 | Alteração do backlog do produto | João Pedro e Paulo Victor |
 | 11/12/2020 | 0.5 | Adição de links para issues e revisão | João Victor e Mateus |
+| 13/12/2020 | 0.6 | Adição de mais histórias | João Victor e Mateus |
 
 ## Introdução
 
@@ -52,3 +53,4 @@ Este foi uma primeira versão da elicitação de requisitos para entender o conc
 | US26 | Eu, como administrador, desejo ter um dashboard para visualizar informações pertinentes do sistema. | [#138](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/issues/138) |
 | US27 | Eu, como administrador, desejo poder visualizar informações relativas aos usuários reportados, para admití-los novamente ou suspendê-los em definitivo. | [#139](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/issues/139) |
 | US28 | Eu, como professor, desejo poder acessar as funcionalidades de aluno, para ter acesso à todas as suas funcionalidades. | [#140](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/issues/140) |
+| US29 | Eu, como aluno, desejo poder pagar pela aula realizada, para finalizar o processo da aula. | [#141](https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/issues/141) |
