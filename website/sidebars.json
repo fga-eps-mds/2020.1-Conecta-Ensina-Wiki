@@ -1,14 +1,16 @@
 {
   "docs": {
     "Documentos do Projeto": [
-      "documentoDeComunicacao",
       "eap",
+      "roadmapDoProduto",
+      "documentoDeComunicacao",
+      "devops",
       "planoDeGerenciamentoDeRiscos",
       "planoDeGerenciamentoDeCustos",
-      "roadmapDoProduto",
+      "planoGcs",
       "sobreNos"
     ],
-    "Documentos do Produto":[
+    "Documentos do Produto": [
       "backlogDoProduto",
       "documentoArquitetura",
       "documentoDeVisao",

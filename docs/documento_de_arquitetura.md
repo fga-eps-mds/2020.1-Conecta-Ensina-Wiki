@@ -14,6 +14,7 @@ sidebar_label: Documento de arquitetura
 | 10/09/2020 | 0.4 | Finalização dos demais diagramas | Denniel |
 | 11/09/2020 | 0.5 | Arrumando links | Paulo |
 | 04/12/2020 | 0.6 | Modificação do escopo, representação arquitetural e metas | João Vitor |
+| 09/12/2020 | 0.7 | Revisão do documento| João Vitor |
 
 
 ## Introdução
@@ -25,7 +26,7 @@ Este documento fornece uma visão geral da arquitetura abrangente do Conecta-Ens
 
 ### Escopo
 
-O Conecta Ensina  é um projeto de aulas particulares dadas por professores formados ou alunos de graduação. O usuário terá a possibilidade de agendar aulas de acordo com a disciplina  e horário desejado.
+O Conecta Ensina  é um projeto de aulas particulares dadas por professores formados ou alunos de graduação. O usuário terá a possibilidade de agendar aulas de acordo com o horário e disciplina desejados.
 
 
 ### Abreviações, acrônimos e definições
@@ -47,12 +48,12 @@ O Conecta Ensina  é um projeto de aulas particulares dadas por professores form
 
 ### Implementação
 
-O modelo de arquitetura proposta no projeto é um modelo multicamada, possuindo três principais camadas, sendo elas: 
+O modelo de arquitetura proposta no projeto é um modelo multicamada, possuindo três camadas principais, sendo elas: 
 * **Visão:** camada em que os dados são visualizados a partir de uma interface gráfica implementada.
-* **Controladoras:** camada em que há o  tratamento e interpretação dos eventos gerados por dispositivos de entrada. Para manipular e tratar esses dados de entrada é utilizado o ExpressJS.
+* **Controladora:** camada em que há o tratamento e interpretação dos eventos gerados por dispositivos de entrada.
 * **Modelo:** camada em que há persistência dos dados, sendo composto pelo banco de dados relacional PostgreSQL.
  
-A comunicação entre as camadas é feita pelo modelo de arquitetura cliente-servidor, sendo o servidor representado pela camada intermediária (Controladoras), tendo a responsabilidade de lidar com a camada de persistência (Modelo), que fornece os dados para manipulação e com a camada de visualização (Visão), que apresenta pela interface gráfica os dados manipulados, no qual são requisitados por meio do protocolo de comunicação http com as outras camadas. O cliente nesse modelo realiza as requisições e interage com a interface gráfica. 
+A comunicação entre as camadas é feita pelo modelo de arquitetura cliente-servidor. O servidor é representado pela camada intermediária (Controladora), tendo a responsabilidade de lidar com a camada de persistência (Modelo), que fornece os dados para manipulação, e com a camada de visualização (Visão), que apresenta por meio da interface gráfica os dados manipulados, no qual são requisitados por meio do protocolo de comunicação http com as outras camadas. O cliente nesse modelo realiza as requisições interagindo com a interface gráfica. 
 
 ![Arquitetura do Back-End](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/arquitetura.png)
 
@@ -88,7 +89,7 @@ Estrutura de pacotes do front-end.
 
 ### Metas
 
-Criação de um aplicativo para aparelhos móveis com a finalidade de permitir o usuário contratar aulas particulares de acordo com o horário e disciplina desejadas. 
+Criação de um aplicativo para aparelhos móveis com a finalidade de permitir o usuário contratar aulas particulares de acordo com o horário e disciplina desejados. 
 
 * **Acoplamento:** Foi separado as views da API de forma a atender qualquer exigência do cliente a novas tecnologias integradas em um mesmo banco de dados. Dessa forma, podemos focar em fazer uma API concreta para utilização em diversas plataformas, assim como diversas aplicações que integradas.
 
@@ -104,7 +105,7 @@ Criação de um aplicativo para aparelhos móveis com a finalidade de permitir o
 
 ### [Especificação dos casos de uso](especificacaoCasosDeUso)
 
-![Especificação dos casos de uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasoDeUso.svg)
+![Especificação dos casos de uso](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/diagramaCasosDeUso.png)
 
 ## Qualidade
 
