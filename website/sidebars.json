@@ -34,10 +34,11 @@
       "planejamentoSprint13", "fechamentoSprint14",
       "planejamentoSprint14", "fechamentoSprint14",
       "planejamentoSprint15", "fechamentoSprint15",
-      "planejamentoSprint16"
+      "planejamentoSprint16", "fechamentoSprint16"
     ],
     "Releases":[
-      "release1"
+      "release1",
+      "release2"
     ]
   }
 }
