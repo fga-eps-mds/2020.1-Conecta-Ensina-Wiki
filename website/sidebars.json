@@ -1,14 +1,14 @@
 {
   "docs": {
     "Documentos do Projeto": [
-      "documentoDeComunicacao",
       "eap",
+      "roadmapDoProduto",
+      "documentoDeComunicacao",
+      "devops",
       "planoDeGerenciamentoDeRiscos",
       "planoDeGerenciamentoDeCustos",
-      "roadmapDoProduto",
-      "sobreNos",
       "planoGcs",
-      "devops"
+      "sobreNos"
     ],
     "Documentos do Produto": [
       "backlogDoProduto",
@@ -19,43 +19,28 @@
       "prototipoDeBaixaFidelidade",
       "prototipoDeAltaFidelidade"
     ],
-    "Documentos de Sprint": [
-      "planejamentoSprint0",
-      "fechamentoSprint0",
-      "planejamentoSprint1",
-      "fechamentoSprint1",
-      "planejamentoSprint2",
-      "fechamentoSprint2",
-      "planejamentoSprint3",
-      "fechamentoSprint3",
-      "planejamentoSprint4",
-      "fechamentoSprint4",
-      "planejamentoSprint5",
-      "fechamentoSprint5",
-      "planejamentoSprint6",
-      "fechamentoSprint6",
-      "planejamentoSprint7",
-      "fechamentoSprint7",
-      "planejamentoSprint8",
-      "fechamentoSprint8",
-      "planejamentoSprint9",
-      "fechamentoSprint9",
-      "planejamentoSprint10",
-      "fechamentoSprint10",
-      "planejamentoSprint11",
-      "fechamentoSprint11",
-      "planejamentoSprint12",
-      "fechamentoSprint12",
-      "planejamentoSprint13",
-      "fechamentoSprint14",
-      "planejamentoSprint14",
-      "fechamentoSprint14",
-      "planejamentoSprint15",
-      "fechamentoSprint15",
-      "planejamentoSprint16"
+    "Documentos de Sprint":[
+      "planejamentoSprint0", "fechamentoSprint0",
+      "planejamentoSprint1", "fechamentoSprint1",
+      "planejamentoSprint2", "fechamentoSprint2",
+      "planejamentoSprint3", "fechamentoSprint3",
+      "planejamentoSprint4", "fechamentoSprint4",
+      "planejamentoSprint5", "fechamentoSprint5",
+      "planejamentoSprint6", "fechamentoSprint6",
+      "planejamentoSprint7", "fechamentoSprint7",
+      "planejamentoSprint8", "fechamentoSprint8",
+      "planejamentoSprint9", "fechamentoSprint9",
+      "planejamentoSprint10", "fechamentoSprint10",
+      "planejamentoSprint11", "fechamentoSprint11",
+      "planejamentoSprint12", "fechamentoSprint12",
+      "planejamentoSprint13", "fechamentoSprint14",
+      "planejamentoSprint14", "fechamentoSprint14",
+      "planejamentoSprint15", "fechamentoSprint15",
+      "planejamentoSprint16", "fechamentoSprint16"
     ],
-    "Releases": [
-      "release1"
+    "Releases":[
+      "release1",
+      "release2"
     ]
   }
 }

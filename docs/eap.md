@@ -10,6 +10,7 @@ sidebar_label: EAP
 |--------|-----------|---------------|---------|
 | 09/12/2020 | 0.1 | Elaboração da EAP | João Pedro Mota |
 | 10/12/2020 | 0.2 | Criação do documento | Paulo Lopes |
+| 14/12/2020 | 0.2 | Revisão de documento | João Pedro Mota |
 
 ## Introdução
 
@@ -17,7 +18,7 @@ De acordo com PMBOK 6° edição, a Estrutura Analítica de Projeto (EAP) é o p
 
 ![Estrutura Analítica do Projeto](https://raw.githubusercontent.com/fga-eps-mds/2020.1-Conecta-Ensina-Wiki/master/website/static/img/EAP.png)
 
-## Referência Bibliográfico
+## Referêncial Bibliográfico
 
 1- [EAP da GaiaDex](https://fga-eps-mds.github.io/2020.1-GaiaDex-wiki/eap/eap/)<br>
 2- [EAP da StaySafe](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/images/eap/EAP.png)
